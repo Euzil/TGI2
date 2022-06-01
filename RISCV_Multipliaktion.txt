@@ -1,0 +1,53 @@
+# Werte in x10 und x11 werden als gegeben angenommen
+
+start:
+# Initiale Werte laden
+    	li x10, 10
+    	li x11, 7
+# Zielregister clearen, Werte kopieren
+	mv x12, x0
+	mv x13, x0
+	mv x14, x10
+	mv x15, x11
+
+# Werte positiv setzen
+	bge x14, x0, aPos 		# springe weg, falls x14 bereits positiv
+	neg x14, x14
+
+aPos:
+	bge x15, x0, swap		# springe weg, falls x15 bereits positiv
+	neg x15, x15
+
+# kleinerer Wert soll in x15 stehen
+swap:
+	bge x14, x15, loop		# nicht tauschen, falls x14 >= x15
+	mv x12, x14
+	mv x14, x15
+	mv x15, x12
+	mv x12, x0			# x12 muss wieder gecleart werden
+
+# Loop für die Addition
+loop:
+	beqz x15, vorzeichenA 		# x15 = 0 ist Ende der Multiplikation
+	add x12, x12, x14
+	bgeu x12, x14, keinUeberlauf	# Ueberlauf ist genau dann, wenn x12 < x14 gilt
+
+ueberlauf:
+	addi x13, x13, 1
+
+keinUeberlauf:
+	addi x15, x15, -1
+	j loop
+
+vorzeichenA:
+	bge x10, x0, vorzeichenB
+	neg x12, x12
+	neg x13, x13	
+	
+vorzeichenB:
+	bge x11, x0, end	
+	neg x12, x12
+	neg x13, x13	
+
+end:
+	j end
