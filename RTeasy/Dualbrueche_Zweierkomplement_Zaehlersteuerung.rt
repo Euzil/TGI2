@@ -1,0 +1,16 @@
+# ZWEIERKOMPLEMENT-MULTIPLIZIERER #
+# Zaehlersteuerung (Moore)        #
+
+declare register  F, A(7:0), Q(7:0), M(7:0), COUNT(2:0)
+declare bus       INBUS(7:0), OUTBUS(7:0), START, DONE
+BEGIN:            DONE<-1, if START=0  then goto BEGIN fi;             # Phi0
+INPUT:            A <- 0, COUNT <- 0, F <- 0, DONE<-0, M <- INBUS;     # Phi1
+                  Q <- INBUS;                                          # Phi2
+
+ADD:              if Q(0) then A <- A + M, F <- M(7) and Q(0) or F fi; # Phi3
+RSHIFT:           A(7) <- F, A(6:0).Q <- A.Q(7:1), COUNT <- COUNT + 1|
+                  if COUNT <> 7 then goto ADD fi;                      # Phi4
+
+CORRECT:          if Q(0) then A <- A - M, Q(0) <- 0 fi;               # Phi5
+OUTPUT:           OUTBUS <- Q;                                         # Phi6
+                  OUTBUS <- A, goto BEGIN;                             # Phi7

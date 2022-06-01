@@ -1,0 +1,20 @@
+# ZWEIERKOMPLEMENT-MULTIPLIZIERER #
+# Mealy-Automat                   #
+
+declare register  F, A(7:0),Q(7:0),  M(7:0), COUNT(2:0)
+		                    
+declare bus	  START, DONE,                           #Ext. Kontrollsignale
+                  INBUS(7:0), OUTBUS(7:0)
+
+BEGIN:    if START then A <- 0, COUNT <- 0, F <- 0,                       #S0
+                              M <- INBUS else goto BEGIN fi;
+INPUT:    Q <- INBUS;                                                     #S1                                                                             
+TEST:	  if COUNT <> 7 then                                              #S2
+            if Q(0) then A <- A + M, F <- (M(7) and Q(0)) or F, goto RSHIFT 
+              else A(7) <- F, A(6:0).Q <- A.Q(7:1), COUNT <- COUNT + 1, goto TEST fi
+          else if Q(0) then A <- A - M, Q(0) <- 0, goto TEST 
+              else  OUTBUS <- Q fi fi;
+OUTPUT:	  OUTBUS <- A;                                                    #S4
+          DONE <- 1,  goto BEGIN;                                          #S5
+RSHIFT:   A(7) <- F, A(6:0).Q <- A.Q(7:1), 
+          COUNT <- COUNT + 1, goto TEST;                                  #S3

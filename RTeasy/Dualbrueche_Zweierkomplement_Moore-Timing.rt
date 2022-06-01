@@ -1,0 +1,38 @@
+# ZWEIERKOMPLEMENT-MULTIPLIZIERER #
+# Steuerwerk - Moore-Automat      #
+
+declare register	F, A(7:0), Q(7:0), M(7:0), COUNT(2:0)
+                        
+declare bus		START, DONE,                           # Ext. Kontrollsignale 
+              INBUS(7:0), OUTBUS(7:0)
+
+BEGIN:		DONE <- 1|                                 # S0/DONE
+          if START = 0 then 
+            goto BEGIN 
+          fi;           
+
+INPUT:		A <-0, COUNT <- 0, F <- 0,
+		      M <- INBUS;                                # S1/c9
+		      Q <- INBUS|                                # S2/c8
+          if Q(0) = 0 then 
+            goto RSHIFT 
+          fi;
+ADD:		  A <- A + M, F <- (M(7) and Q(0)) or F;     # S3/c2
+
+RSHIFT:	  A(7) <- F, A(6:0).Q <- A.Q(7:1),           # S4/c0
+          COUNT <- COUNT + 1|                        
+        	if COUNT <> 7 then 
+            if Q(0) then 
+              goto ADD 
+            else 
+              goto RSHIFT 
+            fi 
+          else 
+            if Q(0) = 0 then 
+              goto OUTPUT 
+            fi 
+          fi;
+
+CORRECT:	A <- A - M, Q(0) <- 0;                     # S5/c2,c5
+OUTPUT:		OUTBUS <- Q;                               # S6/c6
+		      OUTBUS <- A| goto BEGIN;                   # S7/c7

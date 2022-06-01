@@ -1,0 +1,26 @@
+##MUL2cBooth (in: INBUS; out: OUTBUS)
+# Zweierkomplement-Multiplizierer nach Booth (Integer)
+
+declare register A(7:0), M(7:0), Q(7:0), Q_1, COUNT(2:0)
+declare bus INBUS(7:0), OUTBUS(7:0)
+
+BEGIN:  	A<-0, COUNT<-0,
+INPUT:  	M<-INBUS;
+        	Q<-INBUS, Q_1<-0;
+
+SCAN:   	if Q(0)=0 and Q_1=1 then 
+				A<-A+M, goto TEST 
+        	else 
+        		if Q(0)=1 and Q_1=0 then 
+        			A<-A-M 
+        		fi 
+        	fi,
+TEST:   	if COUNT=7 then 
+                   A(7) <- A(7), A(6:0).Q <- A.Q(7:1), 
+                   goto OUTPUT 
+            fi;
+
+RSHIFT: 	A(7)<-A(7), A(6:0).Q.Q_1<-A.Q, COUNT<-COUNT+1, goto SCAN;
+ 
+OUTPUT:     OUTBUS<-A;
+        	OUTBUS<-Q;
