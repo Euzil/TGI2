@@ -1,0 +1,52 @@
+# Konstanten
+
+type T_CTRL_ALU_OP is(
+	...
+	CTRL_ALU_OP_MUL
+	CTRL_ALU_OP_MULH
+	CTRL_ALU_OP_MULHU
+)
+
+# ALU
+
+when CTRL_ALU_OP_MUL => result <= f_LOW_signed(reg_op1 * reg_op2);
+when CTRL_ALU_OP_MULH => result <= f_HIGH_signed(reg_op1 * reg_op2);
+when CTRL_ALU_OP_MULHU => result <= f_HIGH_unsigned(unsigned(reg_op1) * unsigned(reg_op2));
+
+
+# Kontrollsignale
+
+-- MUL
+elsif (opcode = "0110011") and (funct3 = "000") and (funct7 = "0000001") then
+	ctrl_alu_src1 <= CTRL_ALU_SRC_REG;
+	ctrl_alu_src2 <= CTRL_ALU_SRC_REG;
+	ctrl_rd_src <= CTRL_RD_SRC_ALU_RESULT;
+	ctrl_rd_we <= '1';
+	ctrl_alu_op <= CTRL_ALU_OP_MUL;
+end if;
+
+
+-- MULH
+elsif (opcode = "0110011") and (funct3 = "001") and (funct7 = "0000001") then
+	ctrl_alu_src1 <= CTRL_ALU_SRC_REG;
+	ctrl_alu_src2 <= CTRL_ALU_SRC_REG;
+	ctrl_rd_src <= CTRL_RD_SRC_ALU_RESULT;
+	ctrl_rd_we <= '1';
+	ctrl_alu_op <= CTRL_ALU_OP_MULH;
+end if;
+
+
+-- MULHU
+elsif (opcode = "0110011") and (funct3 = "011") and (funct7 = "0000001") then
+	ctrl_alu_src1 <= CTRL_ALU_SRC_REG;
+	ctrl_alu_src2 <= CTRL_ALU_SRC_REG;
+	ctrl_rd_src <= CTRL_RD_SRC_ALU_RESULT;
+	ctrl_rd_we <= '1';
+	ctrl_alu_op <= CTRL_ALU_OP_MULHU;
+end if;
+
+# Immediate Decoder
+
+-- R
+when "0110011" =>
+	immediate <= 32X"0";
