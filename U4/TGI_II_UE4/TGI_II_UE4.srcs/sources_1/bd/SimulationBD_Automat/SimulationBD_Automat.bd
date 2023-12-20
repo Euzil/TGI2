@@ -1,0 +1,542 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD86CD76CBEF348BC",
+      "device": "xcvc1802-viva1596-1LHP-i-L",
+      "name": "SimulationBD_Automat",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Steuerwerk_Moore_0": "",
+      "circuit_Zaehler_3_0": "",
+      "circuit_or_0": "",
+      "Operationswerk_0": "",
+      "util_vector_logic_0": "",
+      "xlconcat_0": "",
+      "xlconcat_1": ""
+    },
+    "ports": {
+      "reset": {
+        "direction": "I"
+      },
+      "k1_start": {
+        "direction": "I"
+      },
+      "INBUS": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "A": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "Q": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "M": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "Sign": {
+        "direction": "O"
+      },
+      "Done": {
+        "direction": "O"
+      },
+      "COUNTER": {
+        "direction": "O",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "2",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "clk": {
+        "direction": "I",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "CS": {
+        "direction": "O",
+        "left": "12",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "13",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "Steuerwerk_Moore_0": {
+        "vlnv": "xilinx.com:module_ref:Steuerwerk_Moore:1.0",
+        "xci_name": "SimulationBD_Automat_Steuerwerk_Moore_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Steuerwerk_Moore",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clock": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "c0": {
+            "direction": "O"
+          },
+          "c1": {
+            "direction": "O"
+          },
+          "c2": {
+            "direction": "O"
+          },
+          "c3": {
+            "direction": "O"
+          },
+          "c4": {
+            "direction": "O"
+          },
+          "c5": {
+            "direction": "O"
+          },
+          "c6": {
+            "direction": "O"
+          },
+          "c7": {
+            "direction": "O"
+          },
+          "c8": {
+            "direction": "O"
+          },
+          "c9": {
+            "direction": "O"
+          },
+          "c10": {
+            "direction": "O"
+          },
+          "c11": {
+            "direction": "O"
+          },
+          "c12": {
+            "direction": "O"
+          },
+          "k1": {
+            "direction": "I"
+          },
+          "k2": {
+            "direction": "I"
+          },
+          "k3": {
+            "direction": "I"
+          },
+          "DONE": {
+            "direction": "O"
+          }
+        }
+      },
+      "circuit_Zaehler_3_0": {
+        "vlnv": "xilinx.com:module_ref:circuit_Zaehler_3:1.0",
+        "xci_name": "SimulationBD_Automat_circuit_Zaehler_3_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "circuit_Zaehler_3",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sig_in_incCnt": {
+            "direction": "I"
+          },
+          "sig_in_Reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "sig_in_Text": {
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "sig_out_Q0": {
+            "direction": "O"
+          },
+          "sig_out_Q1": {
+            "direction": "O"
+          },
+          "sig_out_null": {
+            "direction": "O"
+          }
+        }
+      },
+      "circuit_or_0": {
+        "vlnv": "xilinx.com:module_ref:circuit_or:1.0",
+        "xci_name": "SimulationBD_Automat_circuit_or_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "circuit_or",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sig_in_0": {
+            "direction": "I"
+          },
+          "sig_in_1": {
+            "direction": "I"
+          },
+          "sig_out_0": {
+            "direction": "O"
+          }
+        }
+      },
+      "Operationswerk_0": {
+        "vlnv": "xilinx.com:module_ref:Operationswerk:1.0",
+        "xci_name": "SimulationBD_Automat_Operationswerk_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Operationswerk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clock": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "INBUS": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "OUTBUS": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "c0": {
+            "direction": "I"
+          },
+          "c2": {
+            "direction": "I"
+          },
+          "c3": {
+            "direction": "I"
+          },
+          "c4": {
+            "direction": "I"
+          },
+          "c5": {
+            "direction": "I"
+          },
+          "c6": {
+            "direction": "I"
+          },
+          "c7": {
+            "direction": "I"
+          },
+          "c9": {
+            "direction": "I"
+          },
+          "c10": {
+            "direction": "I"
+          },
+          "c11": {
+            "direction": "I"
+          },
+          "c12": {
+            "direction": "I"
+          },
+          "k2": {
+            "direction": "O"
+          },
+          "A_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "Q_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "M_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "S_out": {
+            "direction": "O"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "SimulationBD_Automat_util_vector_logic_0_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "SimulationBD_Automat_xlconcat_0_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "13"
+          },
+          "dout_width": {
+            "value": "13"
+          }
+        }
+      },
+      "xlconcat_1": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "SimulationBD_Automat_xlconcat_1_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "2"
+          },
+          "dout_width": {
+            "value": "2"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Steuerwerk_Moore_0_c0": {
+        "ports": [
+          "Steuerwerk_Moore_0/c0",
+          "Operationswerk_0/c0",
+          "xlconcat_0/In0"
+        ]
+      },
+      "Steuerwerk_Moore_0_c2": {
+        "ports": [
+          "Steuerwerk_Moore_0/c2",
+          "Operationswerk_0/c2",
+          "xlconcat_0/In2"
+        ]
+      },
+      "Steuerwerk_Moore_0_c3": {
+        "ports": [
+          "Steuerwerk_Moore_0/c3",
+          "Operationswerk_0/c3",
+          "xlconcat_0/In3"
+        ]
+      },
+      "Steuerwerk_Moore_0_c4": {
+        "ports": [
+          "Steuerwerk_Moore_0/c4",
+          "Operationswerk_0/c4",
+          "xlconcat_0/In4"
+        ]
+      },
+      "Steuerwerk_Moore_0_c5": {
+        "ports": [
+          "Steuerwerk_Moore_0/c5",
+          "Operationswerk_0/c5",
+          "xlconcat_0/In5"
+        ]
+      },
+      "Steuerwerk_Moore_0_c6": {
+        "ports": [
+          "Steuerwerk_Moore_0/c6",
+          "Operationswerk_0/c6",
+          "xlconcat_0/In6"
+        ]
+      },
+      "Steuerwerk_Moore_0_c7": {
+        "ports": [
+          "Steuerwerk_Moore_0/c7",
+          "Operationswerk_0/c7",
+          "xlconcat_0/In7"
+        ]
+      },
+      "Steuerwerk_Moore_0_c12": {
+        "ports": [
+          "Steuerwerk_Moore_0/c12",
+          "Operationswerk_0/c12",
+          "xlconcat_0/In12"
+        ]
+      },
+      "Steuerwerk_Moore_0_c11": {
+        "ports": [
+          "Steuerwerk_Moore_0/c11",
+          "Operationswerk_0/c11",
+          "xlconcat_0/In11"
+        ]
+      },
+      "Steuerwerk_Moore_0_c10": {
+        "ports": [
+          "Steuerwerk_Moore_0/c10",
+          "Operationswerk_0/c10",
+          "xlconcat_0/In10"
+        ]
+      },
+      "Steuerwerk_Moore_0_c9": {
+        "ports": [
+          "Steuerwerk_Moore_0/c9",
+          "Operationswerk_0/c9",
+          "xlconcat_0/In9"
+        ]
+      },
+      "INBUS_1": {
+        "ports": [
+          "INBUS",
+          "Operationswerk_0/INBUS"
+        ]
+      },
+      "Operationswerk_0_A_out": {
+        "ports": [
+          "Operationswerk_0/A_out",
+          "A"
+        ]
+      },
+      "Operationswerk_0_Q_out": {
+        "ports": [
+          "Operationswerk_0/Q_out",
+          "Q"
+        ]
+      },
+      "Operationswerk_0_M_out": {
+        "ports": [
+          "Operationswerk_0/M_out",
+          "M"
+        ]
+      },
+      "Operationswerk_0_S_out": {
+        "ports": [
+          "Operationswerk_0/S_out",
+          "Sign"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "CS"
+        ]
+      },
+      "xlconcat_1_dout": {
+        "ports": [
+          "xlconcat_1/dout",
+          "COUNTER"
+        ]
+      },
+      "k1_start_1": {
+        "ports": [
+          "k1_start",
+          "Steuerwerk_Moore_0/k1"
+        ]
+      },
+      "circuit_Zaehler_3_0_sig_out_null": {
+        "ports": [
+          "circuit_Zaehler_3_0/sig_out_null",
+          "Steuerwerk_Moore_0/k3"
+        ]
+      },
+      "Steuerwerk_Moore_0_c8": {
+        "ports": [
+          "Steuerwerk_Moore_0/c8",
+          "circuit_Zaehler_3_0/sig_in_incCnt",
+          "xlconcat_0/In8"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "Steuerwerk_Moore_0/reset",
+          "circuit_or_0/sig_in_1"
+        ]
+      },
+      "circuit_Zaehler_3_0_sig_out_Q0": {
+        "ports": [
+          "circuit_Zaehler_3_0/sig_out_Q0",
+          "xlconcat_1/In0"
+        ]
+      },
+      "circuit_Zaehler_3_0_sig_out_Q1": {
+        "ports": [
+          "circuit_Zaehler_3_0/sig_out_Q1",
+          "xlconcat_1/In1"
+        ]
+      },
+      "Operationswerk_0_k2": {
+        "ports": [
+          "Operationswerk_0/k2",
+          "Steuerwerk_Moore_0/k2"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "circuit_Zaehler_3_0/sig_in_Text",
+          "Operationswerk_0/clock"
+        ]
+      },
+      "circuit_or_0_sig_out_0": {
+        "ports": [
+          "circuit_or_0/sig_out_0",
+          "circuit_Zaehler_3_0/sig_in_Reset"
+        ]
+      },
+      "Steuerwerk_Moore_0_c1": {
+        "ports": [
+          "Steuerwerk_Moore_0/c1",
+          "circuit_or_0/sig_in_0",
+          "xlconcat_0/In1"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "Steuerwerk_Moore_0/clock",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "Steuerwerk_Moore_0_DONE": {
+        "ports": [
+          "Steuerwerk_Moore_0/DONE",
+          "Done"
+        ]
+      }
+    }
+  }
+}

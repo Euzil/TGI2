@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TGI_II_UE4.srcs/sources_1/new/Operationswerk.vhd" \
+"../../../../../Moore-Template.vhdl" \
+"../../../../../Verzoegerungskette_Steuerwerk.vhdl" \
+"../../../../../Zaehler_3.vhdl" \
+"../../../../../or.vhdl" \
+"../../../../../Verzoerung_2.vhdl" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_Operationswerk_0_0/sim/SimulationBD_Automat_Operationswerk_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_Steuerwerk_Moore_0_0/sim/SimulationBD_Automat_Steuerwerk_Moore_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_circuit_Zaehler_3_0_0/sim/SimulationBD_Automat_circuit_Zaehler_3_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_circuit_or_0_0/sim/SimulationBD_Automat_circuit_or_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_Operationswerk_0_0/sim/SimulationBD_VZ_Operationswerk_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoerung_2_0_0/sim/SimulationBD_VZ_circuit_Verzoerung_2_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Zaehler_3_0_0/sim/SimulationBD_VZ_circuit_Zaehler_3_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_or_0_0/sim/SimulationBD_VZ_circuit_or_0_0.vhd" \
+"../../../../../TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd" \
+
+# Do not sort compile order
+nosort

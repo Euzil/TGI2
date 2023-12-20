@@ -1,0 +1,242 @@
+<gateml stepMode="no" allowStep="no" y="111.263736263736" x="149.395604395604" zoom="0.604395604395604" oncolor="ffcc00"><components />
+<gates>
+<gate type="And" rot="0" ins="10" outs="0" x="60" y="230" /><gate type="And" rot="0" ins="100" outs="0" x="60" y="390" /><gate type="And" rot="0" ins="011" outs="0" x="60" y="550" /><gate type="And" rot="0" ins="111" outs="0" x="60" y="710" /><gate type="And" rot="0" ins="11" outs="0" x="60" y="870" /><gate type="And" rot="0" ins="111" outs="0" x="60" y="1030" /><gate type="And" rot="0" ins="100" outs="0" x="60" y="1190" /><gate type="And" rot="0" ins="11" outs="0" x="60" y="1350" /><gate type="And" rot="0" ins="10" outs="0" x="60" y="1510" /><gate type="And" rot="0" ins="10" outs="0" x="60" y="1670" /><gate type="And" rot="0" ins="11" outs="0" x="60" y="1830" /><gate type="And" rot="0" ins="110" outs="0" x="60" y="1990" /><gate type="And" rot="0" ins="1010" outs="0" x="60" y="2150" /><gate type="And" rot="0" ins="101" outs="0" x="60" y="2310" /><gate type="And" rot="0" ins="011" outs="0" x="60" y="2470" /><gate type="And" rot="0" ins="111" outs="0" x="60" y="2630" /><gate type="And" rot="0" ins="101" outs="0" x="60" y="2790" /><gate type="And" rot="0" ins="111" outs="0" x="60" y="2950" /><gate type="And" rot="0" ins="101" outs="0" x="60" y="3110" /><gate type="And" rot="0" ins="101" outs="0" x="60" y="3270" /><gate type="And" rot="0" ins="011" outs="0" x="60" y="3430" /><gate type="And" rot="0" ins="111" outs="0" x="60" y="3590" /><gate type="And" rot="0" ins="110" outs="0" x="60" y="3750" /><gate type="And" rot="0" ins="101" outs="0" x="60" y="3910" /><gate type="And" rot="0" ins="011" outs="0" x="60" y="4070" /><gate type="And" rot="0" ins="101" outs="0" x="60" y="4230" /><gate type="Or" rot="0" ins="0000" outs="0" x="440" y="390" /><gate type="Or" rot="0" ins="0000" outs="0" x="440" y="1030" /><gate type="Or" rot="0" ins="000" outs="0" x="440" y="1670" /><gate type="Or" rot="0" ins="00000" outs="0" x="440" y="2310" /><gate type="Or" rot="0" ins="00" outs="0" x="440" y="2870" /><gate type="Or" rot="0" ins="0000" outs="0" x="440" y="3270" /><gate type="Or" rot="0" ins="0000" outs="0" x="440" y="3910" /></gates>
+<sources>
+<source type="button" x="-200" y="-40" scale="1"><text size="18" x="0" y="-50">X4</text></source>
+<source type="button" x="-140" y="-40" scale="1"><text size="18" x="0" y="-50">X3</text></source>
+<source type="button" x="-80" y="-40" scale="1"><text size="18" x="0" y="-50">X2</text></source>
+<source type="button" x="-20" y="-40" scale="1"><text size="18" x="0" y="-50">X1</text></source>
+
+</sources>
+<drains>
+<drain type="lamp" x="840" y="390" scale="1"><text size="18" x="20" y="-40">a</text></drain><drain type="lamp" x="840" y="1030" scale="1"><text size="18" x="20" y="-40">b</text></drain><drain type="lamp" x="840" y="1670" scale="1"><text size="18" x="20" y="-40">c</text></drain><drain type="lamp" x="840" y="2310" scale="1"><text size="18" x="20" y="-40">d</text></drain><drain type="lamp" x="840" y="2870" scale="1"><text size="18" x="20" y="-40">e</text></drain><drain type="lamp" x="840" y="3270" scale="1"><text size="18" x="20" y="-40">f</text></drain><drain type="lamp" x="840" y="3910" scale="1"><text size="18" x="20" y="-40">g</text></drain>
+</drains>
+<wires>
+<wire righty="210" rightx="10" lefty="210" leftx="-200" />
+<wire righty="360" rightx="10" lefty="360" leftx="-200" />
+<wire righty="520" rightx="30" lefty="520" leftx="-200" />
+<wire righty="680" rightx="10" lefty="680" leftx="-200" />
+<wire righty="850" rightx="10" lefty="850" leftx="-200" />
+<wire righty="1000" rightx="10" lefty="1000" leftx="-200" />
+<wire righty="1160" rightx="10" lefty="1160" leftx="-200" />
+<wire righty="1490" rightx="10" lefty="1490" leftx="-200" />
+<wire righty="1650" rightx="10" lefty="1650" leftx="-200" />
+<wire righty="1960" rightx="10" lefty="1960" leftx="-200" />
+<wire righty="2090" rightx="10" lefty="2090" leftx="-200" />
+<wire righty="2280" rightx="10" lefty="2280" leftx="-200" />
+<wire righty="2440" rightx="30" lefty="2440" leftx="-200" />
+<wire righty="2600" rightx="10" lefty="2600" leftx="-200" />
+<wire righty="2760" rightx="10" lefty="2760" leftx="-200" />
+<wire righty="3080" rightx="10" lefty="3080" leftx="-200" />
+<wire righty="3240" rightx="10" lefty="3240" leftx="-200" />
+<wire righty="3400" rightx="30" lefty="3400" leftx="-200" />
+<wire righty="3560" rightx="10" lefty="3560" leftx="-200" />
+<wire righty="3720" rightx="10" lefty="3720" leftx="-200" />
+<wire righty="3880" rightx="10" lefty="3880" leftx="-200" />
+<wire righty="4040" rightx="30" lefty="4040" leftx="-200" />
+<wire righty="4200" rightx="10" lefty="4200" leftx="-200" />
+<wire righty="390" rightx="30" lefty="390" leftx="-140" />
+<wire righty="550" rightx="10" lefty="550" leftx="-140" />
+<wire righty="710" rightx="10" lefty="710" leftx="-140" />
+<wire righty="890" rightx="10" lefty="890" leftx="-140" />
+<wire righty="1330" rightx="10" lefty="1330" leftx="-140" />
+<wire righty="1690" rightx="30" lefty="1690" leftx="-140" />
+<wire righty="1810" rightx="10" lefty="1810" leftx="-140" />
+<wire righty="1990" rightx="10" lefty="1990" leftx="-140" />
+<wire righty="2130" rightx="30" lefty="2130" leftx="-140" />
+<wire righty="2470" rightx="10" lefty="2470" leftx="-140" />
+<wire righty="2630" rightx="10" lefty="2630" leftx="-140" />
+<wire righty="2920" rightx="10" lefty="2920" leftx="-140" />
+<wire righty="3110" rightx="30" lefty="3110" leftx="-140" />
+<wire righty="3270" rightx="30" lefty="3270" leftx="-140" />
+<wire righty="3430" rightx="10" lefty="3430" leftx="-140" />
+<wire righty="3750" rightx="10" lefty="3750" leftx="-140" />
+<wire righty="3910" rightx="30" lefty="3910" leftx="-140" />
+<wire righty="4070" rightx="10" lefty="4070" leftx="-140" />
+<wire righty="250" rightx="30" lefty="250" leftx="-80" />
+<wire righty="580" rightx="10" lefty="580" leftx="-80" />
+<wire righty="1030" rightx="10" lefty="1030" leftx="-80" />
+<wire righty="1190" rightx="30" lefty="1190" leftx="-80" />
+<wire righty="1370" rightx="10" lefty="1370" leftx="-80" />
+<wire righty="1850" rightx="10" lefty="1850" leftx="-80" />
+<wire righty="2020" rightx="30" lefty="2020" leftx="-80" />
+<wire righty="2170" rightx="10" lefty="2170" leftx="-80" />
+<wire righty="2310" rightx="30" lefty="2310" leftx="-80" />
+<wire righty="2500" rightx="10" lefty="2500" leftx="-80" />
+<wire righty="2790" rightx="30" lefty="2790" leftx="-80" />
+<wire righty="2950" rightx="10" lefty="2950" leftx="-80" />
+<wire righty="3140" rightx="10" lefty="3140" leftx="-80" />
+<wire righty="3460" rightx="10" lefty="3460" leftx="-80" />
+<wire righty="3590" rightx="10" lefty="3590" leftx="-80" />
+<wire righty="3780" rightx="30" lefty="3780" leftx="-80" />
+<wire righty="3940" rightx="10" lefty="3940" leftx="-80" />
+<wire righty="4100" rightx="10" lefty="4100" leftx="-80" />
+<wire righty="4230" rightx="30" lefty="4230" leftx="-80" />
+<wire righty="420" rightx="30" lefty="420" leftx="-20" />
+<wire righty="740" rightx="10" lefty="740" leftx="-20" />
+<wire righty="1060" rightx="10" lefty="1060" leftx="-20" />
+<wire righty="1220" rightx="30" lefty="1220" leftx="-20" />
+<wire righty="1530" rightx="30" lefty="1530" leftx="-20" />
+<wire righty="2210" rightx="30" lefty="2210" leftx="-20" />
+<wire righty="2340" rightx="10" lefty="2340" leftx="-20" />
+<wire righty="2660" rightx="10" lefty="2660" leftx="-20" />
+<wire righty="2820" rightx="10" lefty="2820" leftx="-20" />
+<wire righty="2980" rightx="10" lefty="2980" leftx="-20" />
+<wire righty="3300" rightx="10" lefty="3300" leftx="-20" />
+<wire righty="3620" rightx="10" lefty="3620" leftx="-20" />
+<wire righty="4260" rightx="10" lefty="4260" leftx="-20" />
+<wire righty="-20" rightx="-200" lefty="210" leftx="-200" />
+<wire righty="210" rightx="-200" lefty="360" leftx="-200" />
+<wire righty="360" rightx="-200" lefty="520" leftx="-200" />
+<wire righty="520" rightx="-200" lefty="680" leftx="-200" />
+<wire righty="680" rightx="-200" lefty="850" leftx="-200" />
+<wire righty="850" rightx="-200" lefty="1000" leftx="-200" />
+<wire righty="1000" rightx="-200" lefty="1160" leftx="-200" />
+<wire righty="1160" rightx="-200" lefty="1490" leftx="-200" />
+<wire righty="1490" rightx="-200" lefty="1650" leftx="-200" />
+<wire righty="1650" rightx="-200" lefty="1960" leftx="-200" />
+<wire righty="1960" rightx="-200" lefty="2090" leftx="-200" />
+<wire righty="2090" rightx="-200" lefty="2280" leftx="-200" />
+<wire righty="2280" rightx="-200" lefty="2440" leftx="-200" />
+<wire righty="2440" rightx="-200" lefty="2600" leftx="-200" />
+<wire righty="2600" rightx="-200" lefty="2760" leftx="-200" />
+<wire righty="2760" rightx="-200" lefty="3080" leftx="-200" />
+<wire righty="3080" rightx="-200" lefty="3240" leftx="-200" />
+<wire righty="3240" rightx="-200" lefty="3400" leftx="-200" />
+<wire righty="3400" rightx="-200" lefty="3560" leftx="-200" />
+<wire righty="3560" rightx="-200" lefty="3720" leftx="-200" />
+<wire righty="3720" rightx="-200" lefty="3880" leftx="-200" />
+<wire righty="3880" rightx="-200" lefty="4040" leftx="-200" />
+<wire righty="4040" rightx="-200" lefty="4200" leftx="-200" />
+<wire righty="-20" rightx="-140" lefty="390" leftx="-140" />
+<wire righty="390" rightx="-140" lefty="550" leftx="-140" />
+<wire righty="550" rightx="-140" lefty="710" leftx="-140" />
+<wire righty="710" rightx="-140" lefty="890" leftx="-140" />
+<wire righty="890" rightx="-140" lefty="1330" leftx="-140" />
+<wire righty="1330" rightx="-140" lefty="1690" leftx="-140" />
+<wire righty="1690" rightx="-140" lefty="1810" leftx="-140" />
+<wire righty="1810" rightx="-140" lefty="1990" leftx="-140" />
+<wire righty="1990" rightx="-140" lefty="2130" leftx="-140" />
+<wire righty="2130" rightx="-140" lefty="2470" leftx="-140" />
+<wire righty="2470" rightx="-140" lefty="2630" leftx="-140" />
+<wire righty="2630" rightx="-140" lefty="2920" leftx="-140" />
+<wire righty="2920" rightx="-140" lefty="3110" leftx="-140" />
+<wire righty="3110" rightx="-140" lefty="3270" leftx="-140" />
+<wire righty="3270" rightx="-140" lefty="3430" leftx="-140" />
+<wire righty="3430" rightx="-140" lefty="3750" leftx="-140" />
+<wire righty="3750" rightx="-140" lefty="3910" leftx="-140" />
+<wire righty="3910" rightx="-140" lefty="4070" leftx="-140" />
+<wire righty="-20" rightx="-80" lefty="250" leftx="-80" />
+<wire righty="250" rightx="-80" lefty="580" leftx="-80" />
+<wire righty="580" rightx="-80" lefty="1030" leftx="-80" />
+<wire righty="1030" rightx="-80" lefty="1190" leftx="-80" />
+<wire righty="1190" rightx="-80" lefty="1370" leftx="-80" />
+<wire righty="1370" rightx="-80" lefty="1850" leftx="-80" />
+<wire righty="1850" rightx="-80" lefty="2020" leftx="-80" />
+<wire righty="2020" rightx="-80" lefty="2170" leftx="-80" />
+<wire righty="2170" rightx="-80" lefty="2310" leftx="-80" />
+<wire righty="2310" rightx="-80" lefty="2500" leftx="-80" />
+<wire righty="2500" rightx="-80" lefty="2790" leftx="-80" />
+<wire righty="2790" rightx="-80" lefty="2950" leftx="-80" />
+<wire righty="2950" rightx="-80" lefty="3140" leftx="-80" />
+<wire righty="3140" rightx="-80" lefty="3460" leftx="-80" />
+<wire righty="3460" rightx="-80" lefty="3590" leftx="-80" />
+<wire righty="3590" rightx="-80" lefty="3780" leftx="-80" />
+<wire righty="3780" rightx="-80" lefty="3940" leftx="-80" />
+<wire righty="3940" rightx="-80" lefty="4100" leftx="-80" />
+<wire righty="4100" rightx="-80" lefty="4230" leftx="-80" />
+<wire righty="-20" rightx="-20" lefty="420" leftx="-20" />
+<wire righty="420" rightx="-20" lefty="740" leftx="-20" />
+<wire righty="740" rightx="-20" lefty="1060" leftx="-20" />
+<wire righty="1060" rightx="-20" lefty="1220" leftx="-20" />
+<wire righty="1220" rightx="-20" lefty="1530" leftx="-20" />
+<wire righty="1530" rightx="-20" lefty="2210" leftx="-20" />
+<wire righty="2210" rightx="-20" lefty="2340" leftx="-20" />
+<wire righty="2340" rightx="-20" lefty="2660" leftx="-20" />
+<wire righty="2660" rightx="-20" lefty="2820" leftx="-20" />
+<wire righty="2820" rightx="-20" lefty="2980" leftx="-20" />
+<wire righty="2980" rightx="-20" lefty="3300" leftx="-20" />
+<wire righty="3300" rightx="-20" lefty="3620" leftx="-20" />
+<wire righty="3620" rightx="-20" lefty="4260" leftx="-20" />
+<wire righty="390" rightx="820" lefty="390" leftx="470"/><wire righty="1030" rightx="820" lefty="1030" leftx="470"/><wire righty="1670" rightx="820" lefty="1670" leftx="470"/><wire righty="2310" rightx="820" lefty="2310" leftx="470"/><wire righty="2870" rightx="820" lefty="2870" leftx="470"/><wire righty="3270" rightx="820" lefty="3270" leftx="470"/><wire righty="3910" rightx="820" lefty="3910" leftx="470"/><wire righty="330" rightx="410" lefty="330" leftx ="390"/>
+<wire righty="370" rightx="410" lefty="370" leftx ="370"/>
+<wire righty="410" rightx="410" lefty="410" leftx ="370"/>
+<wire righty="450" rightx="410" lefty="450" leftx ="390"/>
+<wire righty="970" rightx="410" lefty="970" leftx ="390"/>
+<wire righty="1010" rightx="410" lefty="1010" leftx ="370"/>
+<wire righty="1050" rightx="410" lefty="1050" leftx ="370"/>
+<wire righty="1090" rightx="410" lefty="1090" leftx ="390"/>
+<wire righty="1640" rightx="410" lefty="1640" leftx ="390"/>
+<wire righty="1670" rightx="410" lefty="1670" leftx ="370"/>
+<wire righty="1700" rightx="410" lefty="1700" leftx ="390"/>
+<wire righty="2250" rightx="410" lefty="2250" leftx ="390"/>
+<wire righty="2280" rightx="410" lefty="2280" leftx ="370"/>
+<wire righty="2310" rightx="410" lefty="2310" leftx ="350"/>
+<wire righty="2340" rightx="410" lefty="2340" leftx ="370"/>
+<wire righty="2370" rightx="410" lefty="2370" leftx ="390"/>
+<wire righty="2850" rightx="410" lefty="2850" leftx ="390"/>
+<wire righty="2890" rightx="410" lefty="2890" leftx ="390"/>
+<wire righty="3210" rightx="410" lefty="3210" leftx ="390"/>
+<wire righty="3250" rightx="410" lefty="3250" leftx ="370"/>
+<wire righty="3290" rightx="410" lefty="3290" leftx ="370"/>
+<wire righty="3330" rightx="410" lefty="3330" leftx ="390"/>
+<wire righty="3850" rightx="410" lefty="3850" leftx ="390"/>
+<wire righty="3890" rightx="410" lefty="3890" leftx ="370"/>
+<wire righty="3930" rightx="410" lefty="3930" leftx ="370"/>
+<wire righty="3970" rightx="410" lefty="3970" leftx ="390"/>
+<wire righty="330" rightx="390" lefty="230" leftx ="390"/>
+<wire righty="370" rightx="370" lefty="390" leftx ="370"/>
+<wire righty="410" rightx="370" lefty="550" leftx ="370"/>
+<wire righty="450" rightx="390" lefty="710" leftx ="390"/>
+<wire righty="970" rightx="390" lefty="870" leftx ="390"/>
+<wire righty="1010" rightx="370" lefty="1030" leftx ="370"/>
+<wire righty="1050" rightx="370" lefty="1190" leftx ="370"/>
+<wire righty="1090" rightx="390" lefty="1350" leftx ="390"/>
+<wire righty="1640" rightx="390" lefty="1510" leftx ="390"/>
+<wire righty="1670" rightx="370" lefty="1670" leftx ="370"/>
+<wire righty="1700" rightx="390" lefty="1830" leftx ="390"/>
+<wire righty="2250" rightx="390" lefty="1990" leftx ="390"/>
+<wire righty="2280" rightx="370" lefty="2150" leftx ="370"/>
+<wire righty="2310" rightx="350" lefty="2310" leftx ="350"/>
+<wire righty="2340" rightx="370" lefty="2470" leftx ="370"/>
+<wire righty="2370" rightx="390" lefty="2630" leftx ="390"/>
+<wire righty="2850" rightx="390" lefty="2790" leftx ="390"/>
+<wire righty="2890" rightx="390" lefty="2950" leftx ="390"/>
+<wire righty="3210" rightx="390" lefty="3110" leftx ="390"/>
+<wire righty="3250" rightx="370" lefty="3270" leftx ="370"/>
+<wire righty="3290" rightx="370" lefty="3430" leftx ="370"/>
+<wire righty="3330" rightx="390" lefty="3590" leftx ="390"/>
+<wire righty="3850" rightx="390" lefty="3750" leftx ="390"/>
+<wire righty="3890" rightx="370" lefty="3910" leftx ="370"/>
+<wire righty="3930" rightx="370" lefty="4070" leftx ="370"/>
+<wire righty="3970" rightx="390" lefty="4230" leftx ="390"/>
+<wire righty="230" rightx="390" lefty="230" leftx="90"/>
+<wire righty="390" rightx="370" lefty="390" leftx="90"/>
+<wire righty="550" rightx="370" lefty="550" leftx="90"/>
+<wire righty="710" rightx="390" lefty="710" leftx="90"/>
+<wire righty="870" rightx="390" lefty="870" leftx="90"/>
+<wire righty="1030" rightx="370" lefty="1030" leftx="90"/>
+<wire righty="1190" rightx="370" lefty="1190" leftx="90"/>
+<wire righty="1350" rightx="390" lefty="1350" leftx="90"/>
+<wire righty="1510" rightx="390" lefty="1510" leftx="90"/>
+<wire righty="1670" rightx="370" lefty="1670" leftx="90"/>
+<wire righty="1830" rightx="390" lefty="1830" leftx="90"/>
+<wire righty="1990" rightx="390" lefty="1990" leftx="90"/>
+<wire righty="2150" rightx="370" lefty="2150" leftx="90"/>
+<wire righty="2310" rightx="350" lefty="2310" leftx="90"/>
+<wire righty="2470" rightx="370" lefty="2470" leftx="90"/>
+<wire righty="2630" rightx="390" lefty="2630" leftx="90"/>
+<wire righty="2790" rightx="390" lefty="2790" leftx="90"/>
+<wire righty="2950" rightx="390" lefty="2950" leftx="90"/>
+<wire righty="3110" rightx="390" lefty="3110" leftx="90"/>
+<wire righty="3270" rightx="370" lefty="3270" leftx="90"/>
+<wire righty="3430" rightx="370" lefty="3430" leftx="90"/>
+<wire righty="3590" rightx="390" lefty="3590" leftx="90"/>
+<wire righty="3750" rightx="390" lefty="3750" leftx="90"/>
+<wire righty="3910" rightx="370" lefty="3910" leftx="90"/>
+<wire righty="4070" rightx="370" lefty="4070" leftx="90"/>
+<wire righty="4230" rightx="390" lefty="4230" leftx="90"/>
+</wires>
+<texts>
+</texts>
+</gateml>

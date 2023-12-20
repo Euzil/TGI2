@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"ExerciseBD_VZ": {
+			"proto_instances": {
+			}
+		}
+	}
+}

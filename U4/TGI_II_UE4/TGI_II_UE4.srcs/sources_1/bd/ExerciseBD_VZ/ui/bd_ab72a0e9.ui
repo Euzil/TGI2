@@ -1,0 +1,120 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.72192",
+   "Default View_TopLeft":"-98,-287",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_BTNR -pg 1 -lvl 0 -x -10 -y 140 -defaultsOSRD
+preplace port port-id_BTNC -pg 1 -lvl 0 -x -10 -y 20 -defaultsOSRD
+preplace port port-id_BTNU -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port port-id_SW14 -pg 1 -lvl 0 -x -10 -y 440 -defaultsOSRD
+preplace port port-id_SW13 -pg 1 -lvl 0 -x -10 -y 420 -defaultsOSRD
+preplace port port-id_SW12 -pg 1 -lvl 0 -x -10 -y 400 -defaultsOSRD
+preplace port port-id_BTNL -pg 1 -lvl 0 -x -10 -y 40 -defaultsOSRD
+preplace port port-id_SW6 -pg 1 -lvl 0 -x -10 -y 280 -defaultsOSRD
+preplace port port-id_SW7 -pg 1 -lvl 0 -x -10 -y 300 -defaultsOSRD
+preplace port port-id_SW8 -pg 1 -lvl 0 -x -10 -y 320 -defaultsOSRD
+preplace port port-id_SW9 -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
+preplace port port-id_SW10 -pg 1 -lvl 0 -x -10 -y 360 -defaultsOSRD
+preplace port port-id_SW11 -pg 1 -lvl 0 -x -10 -y 380 -defaultsOSRD
+preplace port port-id_SW4 -pg 1 -lvl 0 -x -10 -y 180 -defaultsOSRD
+preplace port port-id_BTND -pg 1 -lvl 0 -x -10 -y 240 -defaultsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x -10 -y 220 -defaultsOSRD
+preplace port port-id_AN0 -pg 1 -lvl 7 -x 2300 -y 110 -defaultsOSRD
+preplace port port-id_AN1 -pg 1 -lvl 7 -x 2300 -y 130 -defaultsOSRD
+preplace port port-id_AN2 -pg 1 -lvl 7 -x 2300 -y 150 -defaultsOSRD
+preplace port port-id_AN3 -pg 1 -lvl 7 -x 2300 -y 170 -defaultsOSRD
+preplace port port-id_SW15 -pg 1 -lvl 0 -x -10 -y 200 -defaultsOSRD
+preplace port port-id_LD0 -pg 1 -lvl 7 -x 2300 -y 20 -defaultsOSRD
+preplace port port-id_LD1 -pg 1 -lvl 7 -x 2300 -y 40 -defaultsOSRD
+preplace port port-id_LD2 -pg 1 -lvl 7 -x 2300 -y 60 -defaultsOSRD
+preplace port port-id_LD3 -pg 1 -lvl 7 -x 2300 -y 80 -defaultsOSRD
+preplace port port-id_LD4 -pg 1 -lvl 7 -x 2300 -y 350 -defaultsOSRD
+preplace port port-id_LD5 -pg 1 -lvl 7 -x 2300 -y 370 -defaultsOSRD
+preplace port port-id_LD6 -pg 1 -lvl 7 -x 2300 -y 390 -defaultsOSRD
+preplace port port-id_LD7 -pg 1 -lvl 7 -x 2300 -y 410 -defaultsOSRD
+preplace port port-id_LD8 -pg 1 -lvl 7 -x 2300 -y 430 -defaultsOSRD
+preplace port port-id_LD9 -pg 1 -lvl 7 -x 2300 -y 450 -defaultsOSRD
+preplace port port-id_LD10 -pg 1 -lvl 7 -x 2300 -y 470 -defaultsOSRD
+preplace port port-id_LD11 -pg 1 -lvl 7 -x 2300 -y 490 -defaultsOSRD
+preplace port port-id_LD12 -pg 1 -lvl 7 -x 2300 -y 510 -defaultsOSRD
+preplace port port-id_SW0 -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port port-id_SW1 -pg 1 -lvl 0 -x -10 -y 80 -defaultsOSRD
+preplace port port-id_SW2 -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port port-id_SW3 -pg 1 -lvl 0 -x -10 -y 120 -defaultsOSRD
+preplace port port-id_LD15 -pg 1 -lvl 7 -x 2300 -y 570 -defaultsOSRD
+preplace port port-id_SW5 -pg 1 -lvl 0 -x -10 -y 260 -defaultsOSRD
+preplace port port-id_LD13 -pg 1 -lvl 7 -x 2300 -y 530 -defaultsOSRD
+preplace port port-id_LD14 -pg 1 -lvl 7 -x 2300 -y 550 -defaultsOSRD
+preplace portBus CA -pg 1 -lvl 7 -x 2300 -y 190 -defaultsOSRD
+preplace portBus CB -pg 1 -lvl 7 -x 2300 -y 210 -defaultsOSRD
+preplace portBus CC -pg 1 -lvl 7 -x 2300 -y 230 -defaultsOSRD
+preplace portBus CD -pg 1 -lvl 7 -x 2300 -y 250 -defaultsOSRD
+preplace portBus CE -pg 1 -lvl 7 -x 2300 -y 270 -defaultsOSRD
+preplace portBus CF -pg 1 -lvl 7 -x 2300 -y 290 -defaultsOSRD
+preplace portBus CG -pg 1 -lvl 7 -x 2300 -y 310 -defaultsOSRD
+preplace portBus DP -pg 1 -lvl 7 -x 2300 -y 330 -defaultsOSRD
+preplace inst circuit_Verzoerung_2_0 -pg 1 -lvl 4 -x 1250 -y 50 -defaultsOSRD
+preplace inst circuit_Zaehler_3_0 -pg 1 -lvl 6 -x 2020 -y 660 -defaultsOSRD
+preplace inst circuit_or_0 -pg 1 -lvl 5 -x 1690 -y 560 -defaultsOSRD
+preplace inst Entprellung_0 -pg 1 -lvl 1 -x 150 -y 220 -defaultsOSRD
+preplace inst Operationswerk_0 -pg 1 -lvl 3 -x 850 -y 40 -defaultsOSRD
+preplace inst sevenSegmentDisplay_0 -pg 1 -lvl 5 -x 1690 -y 220 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 440 -y 220 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 440 -y 90 -defaultsOSRD
+preplace inst xlconcat_S -pg 1 -lvl 4 -x 1250 -y 370 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 850 -y 410 -defaultsOSRD
+preplace netloc CLK_1 1 0 5 10 -270 NJ -270 NJ -270 1030J -270 1530J
+preplace netloc xlconstant_0_dout 1 3 1 1000 360n
+preplace netloc sevenSegmentDisplay_0_AN0 1 5 2 NJ 110 NJ
+preplace netloc sevenSegmentDisplay_0_AN1 1 5 2 NJ 130 NJ
+preplace netloc sevenSegmentDisplay_0_AN2 1 5 2 NJ 150 NJ
+preplace netloc sevenSegmentDisplay_0_AN3 1 5 2 NJ 170 NJ
+preplace netloc sevenSegmentDisplay_0_CA 1 5 2 NJ 190 NJ
+preplace netloc sevenSegmentDisplay_0_CB 1 5 2 NJ 210 NJ
+preplace netloc sevenSegmentDisplay_0_CC 1 5 2 NJ 230 NJ
+preplace netloc sevenSegmentDisplay_0_CD 1 5 2 NJ 250 NJ
+preplace netloc sevenSegmentDisplay_0_CE 1 5 2 NJ 270 NJ
+preplace netloc sevenSegmentDisplay_0_CF 1 5 2 NJ 290 NJ
+preplace netloc sevenSegmentDisplay_0_CG 1 5 2 NJ 310 NJ
+preplace netloc sevenSegmentDisplay_0_DP 1 5 2 NJ 330 NJ
+preplace netloc xlconcat_S_dout 1 4 1 1480 220n
+preplace netloc SW15_1 1 0 1 NJ 200
+preplace netloc Entprellung_0_O_BUTTON 1 1 1 NJ 220
+preplace netloc util_vector_logic_0_Res 1 2 4 590 680 NJ 680 NJ 680 N
+preplace netloc Operationswerk_0_F_out 1 3 1 980 90n
+preplace netloc Operationswerk_0_A_out 1 3 2 980J -150 1490J
+preplace netloc Operationswerk_0_Q_out 1 3 2 990J -140 1460J
+preplace netloc Operationswerk_0_M_out 1 3 2 990J 240 NJ
+preplace netloc xlconcat_0_dout 1 2 1 610 -60n
+preplace netloc SW0_1 1 0 2 NJ 60 NJ
+preplace netloc SW1_1 1 0 2 NJ 80 NJ
+preplace netloc SW2_1 1 0 2 NJ 100 NJ
+preplace netloc SW3_1 1 0 2 NJ 120 NJ
+preplace netloc BTND_1 1 0 5 10J 300 NJ 300 NJ 300 1020 280 1400J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c11 1 2 5 710 -170 NJ -170 1400 -60 NJ -60 2220J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c10 1 2 5 700 -180 NJ -180 1390 -70 NJ -70 2240J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c9 1 2 5 690 -190 NJ -190 1410 -30 NJ -30 2210J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c7 1 2 5 680 -200 NJ -200 1420 -80 NJ -80 2280J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c6 1 2 5 670 -210 NJ -210 1510 20 NJ 20 2190J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c5 1 2 5 660 -220 NJ -220 1440 -40 NJ -40 2250J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c4 1 2 5 650 -230 NJ -230 1450 -50 NJ -50 2270J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c3 1 2 5 640 -240 NJ -240 1470 -10 NJ -10 2230J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c2 1 2 5 630 -250 NJ -250 1500 50 NJ 50 2200J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c0 1 2 5 620 -260 NJ -260 1520 -20 NJ -20 2260J
+preplace netloc circuit_Verzoerung_2_0_sig_out_c12 1 2 5 720 -160 NJ -160 1430 30 NJ 30 2170J
+preplace netloc circuit_Verzoerung_2_0_sig_out_DONE 1 4 3 1410 10 NJ 10 2180J
+preplace netloc circuit_Zaehler_3_0_sig_out_null 1 3 4 1030 480 NJ 480 NJ 480 2160
+preplace netloc circuit_Zaehler_3_0_sig_out_Q0 1 6 1 2220 530n
+preplace netloc circuit_Zaehler_3_0_sig_out_Q1 1 6 1 2260 550n
+preplace netloc Operationswerk_0_k2 1 3 1 1000 10n
+preplace netloc circuit_or_0_sig_out_0 1 5 1 1810 560n
+preplace netloc circuit_Verzoerung_2_0_sig_out_c1 1 4 3 1540 40 NJ 40 NJ
+preplace netloc circuit_Verzoerung_2_0_sig_out_c8 1 4 3 1480 0 1820 430 NJ
+preplace netloc SW14_1 1 0 4 20J 0 NJ 0 600J 220 1010
+levelinfo -pg 1 -10 150 440 850 1250 1690 2020 2300
+pagesize -pg 1 -db -bbox -sgen -100 -280 2400 740
+"
+}
+0

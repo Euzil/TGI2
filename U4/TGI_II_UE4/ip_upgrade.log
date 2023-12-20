@@ -1,0 +1,457 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:42 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_VZ_xlconcat_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SimulationBD_VZ_xlconcat_1_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:42 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_VZ_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SimulationBD_VZ_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:42 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_VZ_util_vector_logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SimulationBD_VZ_util_vector_logic_0_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:42 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_VZ_Operationswerk_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SimulationBD_VZ_Operationswerk_0_0 (xilinx.com:module_ref:Operationswerk:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_Automat_xlconcat_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SimulationBD_Automat_xlconcat_1_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_Automat_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SimulationBD_Automat_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_Automat_util_vector_logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SimulationBD_Automat_util_vector_logic_0_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SimulationBD_Automat_Operationswerk_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SimulationBD_Automat_Operationswerk_0_0 (xilinx.com:module_ref:Operationswerk:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_VZ_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ExerciseBD_VZ_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_VZ_xlconcat_S_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ExerciseBD_VZ_xlconcat_S_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_VZ_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ExerciseBD_VZ_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_VZ_util_vector_logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_VZ_util_vector_logic_0_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_VZ_sevenSegmentDisplay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_VZ_sevenSegmentDisplay_0_0 (xilinx.com:module_ref:sevenSegmentDisplay:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_VZ_Operationswerk_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_VZ_Operationswerk_0_0 (xilinx.com:module_ref:Operationswerk:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:41 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_VZ_Entprellung_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_VZ_Entprellung_0_0 (xilinx.com:module_ref:Entprellung:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:40 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_Automat_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ExerciseBD_Automat_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:40 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_Automat_xlconcat_S_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ExerciseBD_Automat_xlconcat_S_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:40 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_Automat_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ExerciseBD_Automat_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:40 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_Automat_util_vector_logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_Automat_util_vector_logic_0_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:40 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_Automat_sevenSegmentDisplay_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_Automat_sevenSegmentDisplay_0_0 (xilinx.com:module_ref:sevenSegmentDisplay:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:40 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_Automat_Operationswerk_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_Automat_Operationswerk_0_0 (xilinx.com:module_ref:Operationswerk:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.3 (win64) Build 3173277 Wed Apr  7 05:07:49 MDT 2021
+| Date         : Fri Jan 21 08:38:40 2022
+| Host         : DESKTOP-7REPPQD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcvc1802-viva1596-1LHP-i-L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ExerciseBD_Automat_Entprellung_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ExerciseBD_Automat_Entprellung_0_0 (xilinx.com:module_ref:Entprellung:1.0 (Rev. 1)) to Vivado generation flows.
+

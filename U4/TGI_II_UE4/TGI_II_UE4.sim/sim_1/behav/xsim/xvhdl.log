@@ -1,0 +1,3 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/or.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'OR_2'
+INFO: [VRFC 10-3107] analyzing entity 'circuit_or'

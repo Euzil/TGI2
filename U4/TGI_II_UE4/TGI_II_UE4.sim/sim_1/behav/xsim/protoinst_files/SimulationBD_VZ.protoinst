@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"SimulationBD_VZ": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,243 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Thu Jan 20 19:43:45 2022
+# Process ID: 15384
+# Current directory: C:/Users/Admin/OneDrive/桌面/TGI_II_UE4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16900 C:\Users\Admin\OneDrive\桌面\TGI_II_UE4\TGI_II_UE4.xpr
+# Log file: C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/vivado.log
+# Journal file: C:/Users/Admin/OneDrive/桌面/TGI_II_UE4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd}
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+delete_bd_objs [get_bd_nets util_vector_logic_0_Res]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins circuit_Zaehler_3_0/sig_in_Text]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins Operationswerk_0/clock]
+connect_bd_net [get_bd_ports clk] [get_bd_pins circuit_Verzoerung_2_0/sig_in_Takt]
+close_sim
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd}
+delete_bd_objs [get_bd_nets util_vector_logic_0_Res]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins Operationswerk_0/clock]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins circuit_Zaehler_3_0/sig_in_Text]
+connect_bd_net [get_bd_ports clk] [get_bd_pins Steuerwerk_Moore_0/clock]
+close_sim
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+set_property location {3 1002 760} [get_bd_cells xlconcat_1]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+delete_bd_objs [get_bd_cells util_vector_logic_1]
+add_files -norecurse C:/Users/Admin/OneDrive/桌面/or.vhdl
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference circuit_or circuit_or_0
+set_property location {1 190 -81} [get_bd_cells circuit_Zaehler_3_0]
+delete_bd_objs [get_bd_nets circuit_Verzoerung_2_0_sig_out_c1]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins circuit_or_0/sig_in_1]
+connect_bd_net [get_bd_ports reset] [get_bd_pins circuit_or_0/sig_in_0]
+connect_bd_net [get_bd_pins circuit_or_0/sig_out_0] [get_bd_pins circuit_Zaehler_3_0/sig_in_Reset]
+current_bd_design [get_bd_designs SimulationBD_Automat]
+create_bd_cell -type module -reference circuit_or circuit_or_0
+delete_bd_objs [get_bd_nets Steuerwerk_Moore_0_c1]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c1] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c1] [get_bd_pins circuit_or_0/sig_in_0]
+connect_bd_net [get_bd_ports reset] [get_bd_pins circuit_or_0/sig_in_1]
+connect_bd_net [get_bd_pins circuit_or_0/sig_out_0] [get_bd_pins circuit_Zaehler_3_0/sig_in_Reset]
+close_sim
+save_bd_design
+current_bd_design [get_bd_designs SimulationBD_VZ]
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd}
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/ExerciseBD_VZ/ExerciseBD_VZ.bd}
+create_bd_cell -type module -reference circuit_Verzoerung_2 circuit_Verzoerung_2_0
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c11] [get_bd_pins Operationswerk_0/c11]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c10] [get_bd_pins Operationswerk_0/c10]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c9] [get_bd_pins Operationswerk_0/c9]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c7] [get_bd_pins Operationswerk_0/c7]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c6] [get_bd_pins Operationswerk_0/c6]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c5] [get_bd_pins Operationswerk_0/c5]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c4] [get_bd_pins Operationswerk_0/c4]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c3] [get_bd_pins Operationswerk_0/c3]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c2] [get_bd_pins Operationswerk_0/c0]
+delete_bd_objs [get_bd_nets circuit_Verzoerung_2_0_sig_out_c2]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c2] [get_bd_pins Operationswerk_0/c2]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c0] [get_bd_pins Operationswerk_0/c0]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c12] [get_bd_pins Operationswerk_0/c12]
+connect_bd_net [get_bd_ports LD15] [get_bd_pins circuit_Verzoerung_2_0/sig_out_DONE]
+create_bd_cell -type module -reference circuit_Zaehler_3 circuit_Zaehler_3_0
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_null] [get_bd_pins circuit_Verzoerung_2_0/sig_in_k3]
+connect_bd_net [get_bd_ports LD13] [get_bd_pins circuit_Zaehler_3_0/sig_out_Q0]
+connect_bd_net [get_bd_ports LD14] [get_bd_pins circuit_Zaehler_3_0/sig_out_Q1]
+connect_bd_net [get_bd_pins Operationswerk_0/k2] [get_bd_pins circuit_Verzoerung_2_0/sig_in_k2]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins circuit_Verzoerung_2_0/sig_in_Takt]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins circuit_Zaehler_3_0/sig_in_Text]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+create_bd_cell -type module -reference circuit_or circuit_or_0
+connect_bd_net [get_bd_pins circuit_or_0/sig_out_0] [get_bd_pins circuit_Zaehler_3_0/sig_in_Reset]
+connect_bd_net [get_bd_ports BTND] [get_bd_pins circuit_or_0/sig_in_1]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins circuit_or_0/sig_in_0]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c8] [get_bd_pins circuit_Zaehler_3_0/sig_in_incCnt]
+connect_bd_net [get_bd_ports SW14] [get_bd_pins circuit_Verzoerung_2_0/sig_in_k1]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+connect_bd_net [get_bd_ports BTND] [get_bd_pins circuit_Verzoerung_2_0/sig_in_reset]
+connect_bd_net [get_bd_ports LD0] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c0]
+connect_bd_net [get_bd_ports LD1] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1]
+connect_bd_net [get_bd_ports LD2] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c2]
+connect_bd_net [get_bd_ports LD3] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c3]
+connect_bd_net [get_bd_ports LD4] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c4]
+connect_bd_net [get_bd_ports LD5] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c5]
+connect_bd_net [get_bd_ports LD6] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c6]
+connect_bd_net [get_bd_ports LD7] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c7]
+connect_bd_net [get_bd_ports LD8] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c8]
+connect_bd_net [get_bd_ports LD9] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c9]
+connect_bd_net [get_bd_ports LD10] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c10]
+connect_bd_net [get_bd_ports LD11] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c11]
+connect_bd_net [get_bd_ports LD12] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c12]
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd}
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/ExerciseBD_Automat/ExerciseBD_Automat.bd}
+create_bd_cell -type module -reference Steuerwerk_Moore Steuerwerk_Moore_0
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c0] [get_bd_pins Operationswerk_0/c0]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c2] [get_bd_pins Operationswerk_0/c2]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c3] [get_bd_pins Operationswerk_0/c3]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c4] [get_bd_pins Operationswerk_0/c4]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c5] [get_bd_pins Operationswerk_0/c5]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c6] [get_bd_pins Operationswerk_0/c6]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c7] [get_bd_pins Operationswerk_0/c7]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c9] [get_bd_pins Operationswerk_0/c9]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c10] [get_bd_pins Operationswerk_0/c10]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c11] [get_bd_pins Operationswerk_0/c11]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c12] [get_bd_pins Operationswerk_0/c12]
+connect_bd_net [get_bd_ports LD15] [get_bd_pins Steuerwerk_Moore_0/DONE]
+create_bd_cell -type module -reference circuit_Zaehler_3 circuit_Zaehler_3_0
+set_property location {1 154 360} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 152 351} [get_bd_cells circuit_Zaehler_3_0]
+connect_bd_net [get_bd_ports LD13] [get_bd_pins circuit_Zaehler_3_0/sig_out_Q0]
+connect_bd_net [get_bd_ports LD14] [get_bd_pins circuit_Zaehler_3_0/sig_out_Q1]
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_null] [get_bd_pins Steuerwerk_Moore_0/k3]
+connect_bd_net [get_bd_pins Operationswerk_0/k2] [get_bd_pins Steuerwerk_Moore_0/k2]
+create_bd_cell -type module -reference circuit_or circuit_or_0
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+connect_bd_net [get_bd_ports BTND] [get_bd_pins circuit_or_0/sig_in_0]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c1] [get_bd_pins circuit_or_0/sig_in_1]
+connect_bd_net [get_bd_pins circuit_or_0/sig_out_0] [get_bd_pins circuit_Zaehler_3_0/sig_in_Reset]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+connect_bd_net [get_bd_ports BTND] [get_bd_pins Steuerwerk_Moore_0/reset]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+connect_bd_net [get_bd_ports SW14] [get_bd_pins Steuerwerk_Moore_0/k1]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+delete_bd_objs [get_bd_nets circuit_Verzoerung_2_0_sig_out_DONE]
+connect_bd_net [get_bd_ports Done] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1]
+save_wave_config {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg}
+close_sim
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+save_bd_design
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+save_bd_design
+current_bd_design [get_bd_designs SimulationBD_VZ]
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+update_compile_order -fileset sources_1
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c8] [get_bd_pins circuit_Zaehler_3_0/sig_in_incCnt]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins circuit_Zaehler_3_0/sig_in_Text]
+current_bd_design [get_bd_designs ExerciseBD_VZ]
+current_bd_design [get_bd_designs ExerciseBD_Automat]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins Steuerwerk_Moore_0/clock]
+connect_bd_net [get_bd_ports LD0] [get_bd_pins Steuerwerk_Moore_0/c0]
+connect_bd_net [get_bd_ports LD1] [get_bd_pins Steuerwerk_Moore_0/c1]
+connect_bd_net [get_bd_ports LD2] [get_bd_pins Steuerwerk_Moore_0/c2]
+connect_bd_net [get_bd_ports LD3] [get_bd_pins Steuerwerk_Moore_0/c3]
+connect_bd_net [get_bd_ports LD4] [get_bd_pins Steuerwerk_Moore_0/c4]
+connect_bd_net [get_bd_ports LD5] [get_bd_pins Steuerwerk_Moore_0/c5]
+connect_bd_net [get_bd_ports LD6] [get_bd_pins Steuerwerk_Moore_0/c6]
+connect_bd_net [get_bd_ports LD7] [get_bd_pins Steuerwerk_Moore_0/c7]
+connect_bd_net [get_bd_ports LD8] [get_bd_pins Steuerwerk_Moore_0/c8]
+connect_bd_net [get_bd_ports LD9] [get_bd_pins Steuerwerk_Moore_0/c9]
+connect_bd_net [get_bd_ports LD10] [get_bd_pins Steuerwerk_Moore_0/c10]
+connect_bd_net [get_bd_ports LD11] [get_bd_pins Steuerwerk_Moore_0/c11]
+connect_bd_net [get_bd_ports LD12] [get_bd_pins Steuerwerk_Moore_0/c12]
+close_sim
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+current_bd_design [get_bd_designs SimulationBD_VZ]
+delete_bd_objs [get_bd_nets circuit_Verzoerung_2_0_sig_out_c1]
+connect_bd_net [get_bd_ports Done] [get_bd_pins circuit_Verzoerung_2_0/sig_out_DONE]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins circuit_or_0/sig_in_1]
+delete_bd_objs [get_bd_nets circuit_Verzoerung_2_0_sig_out_DONE]
+connect_bd_net [get_bd_ports Done] [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1]
+current_bd_design [get_bd_designs SimulationBD_Automat]
+delete_bd_objs [get_bd_nets Steuerwerk_Moore_0_DONE]
+connect_bd_net [get_bd_ports Done] [get_bd_pins Steuerwerk_Moore_0/c1]
+close_sim
+save_bd_design
+current_bd_design [get_bd_designs SimulationBD_VZ]
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+current_bd_design [get_bd_designs SimulationBD_Automat]
+delete_bd_objs [get_bd_nets Steuerwerk_Moore_0_c1]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c1] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_ports Done] [get_bd_pins Steuerwerk_Moore_0/DONE]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c1] [get_bd_pins circuit_or_0/sig_in_0]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+delete_bd_objs [get_bd_nets circuit_Verzoerung_2_0_sig_out_c1]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins circuit_or_0/sig_in_1]
+connect_bd_net [get_bd_ports Done] [get_bd_pins circuit_Verzoerung_2_0/sig_out_DONE]
+close_sim
+current_bd_design [get_bd_designs SimulationBD_Automat]
+save_bd_design
+current_bd_design [get_bd_designs SimulationBD_VZ]
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+delete_bd_objs [get_bd_nets circuit_Verzoerung_2_0_sig_out_DONE]
+connect_bd_net [get_bd_ports clk] [get_bd_ports Done]
+current_bd_design [get_bd_designs SimulationBD_Automat]
+delete_bd_objs [get_bd_nets Steuerwerk_Moore_0_DONE]
+connect_bd_net [get_bd_ports Done] [get_bd_ports clk]
+close_sim
+save_bd_design
+current_bd_design [get_bd_designs SimulationBD_VZ]
+save_bd_design
+launch_simulation
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+close_sim

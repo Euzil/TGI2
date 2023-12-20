@@ -1,0 +1,859 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC7BE95B297F97F8",
+      "device": "xcvc1802-viva1596-1LHP-i-L",
+      "name": "ExerciseBD_VZ",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2020.3"
+    },
+    "design_tree": {
+      "circuit_Verzoerung_2_0": "",
+      "circuit_Zaehler_3_0": "",
+      "circuit_or_0": "",
+      "Entprellung_0": "",
+      "Operationswerk_0": "",
+      "sevenSegmentDisplay_0": "",
+      "util_vector_logic_0": "",
+      "xlconcat_0": "",
+      "xlconcat_S": "",
+      "xlconstant_0": ""
+    },
+    "ports": {
+      "BTNR": {
+        "direction": "I"
+      },
+      "BTNC": {
+        "direction": "I"
+      },
+      "BTNU": {
+        "direction": "I"
+      },
+      "SW14": {
+        "direction": "I"
+      },
+      "SW13": {
+        "direction": "I"
+      },
+      "SW12": {
+        "type": "rst",
+        "direction": "I"
+      },
+      "BTNL": {
+        "direction": "I"
+      },
+      "SW6": {
+        "direction": "I"
+      },
+      "SW7": {
+        "direction": "I"
+      },
+      "SW8": {
+        "direction": "I"
+      },
+      "SW9": {
+        "direction": "I"
+      },
+      "SW10": {
+        "direction": "I"
+      },
+      "SW11": {
+        "direction": "I"
+      },
+      "SW4": {
+        "direction": "I"
+      },
+      "BTND": {
+        "direction": "I"
+      },
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_clk:SW0:BTND"
+          },
+          "CLK_DOMAIN": {
+            "value": "CLK"
+          }
+        }
+      },
+      "AN0": {
+        "direction": "O"
+      },
+      "AN1": {
+        "direction": "O"
+      },
+      "AN2": {
+        "direction": "O"
+      },
+      "AN3": {
+        "direction": "O"
+      },
+      "CA": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "CB": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "CC": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "CD": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "CE": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "CF": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "CG": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "DP": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "SW15": {
+        "direction": "I"
+      },
+      "LD0": {
+        "direction": "O"
+      },
+      "LD1": {
+        "direction": "O"
+      },
+      "LD2": {
+        "direction": "O"
+      },
+      "LD3": {
+        "direction": "O"
+      },
+      "LD4": {
+        "direction": "O"
+      },
+      "LD5": {
+        "direction": "O"
+      },
+      "LD6": {
+        "direction": "O"
+      },
+      "LD7": {
+        "direction": "O"
+      },
+      "LD8": {
+        "direction": "O"
+      },
+      "LD9": {
+        "direction": "O"
+      },
+      "LD10": {
+        "direction": "O"
+      },
+      "LD11": {
+        "direction": "O"
+      },
+      "LD12": {
+        "direction": "O"
+      },
+      "SW0": {
+        "direction": "I"
+      },
+      "SW1": {
+        "direction": "I"
+      },
+      "SW2": {
+        "direction": "I"
+      },
+      "SW3": {
+        "direction": "I"
+      },
+      "LD15": {
+        "direction": "O"
+      },
+      "SW5": {
+        "direction": "I"
+      },
+      "LD13": {
+        "direction": "O"
+      },
+      "LD14": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "circuit_Verzoerung_2_0": {
+        "vlnv": "xilinx.com:module_ref:circuit_Verzoerung_2:1.0",
+        "xci_name": "ExerciseBD_VZ_circuit_Verzoerung_2_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "circuit_Verzoerung_2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sig_in_k1": {
+            "direction": "I"
+          },
+          "sig_in_Takt": {
+            "direction": "I"
+          },
+          "sig_in_k2": {
+            "direction": "I"
+          },
+          "sig_in_k3": {
+            "direction": "I"
+          },
+          "sig_in_reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "sig_out_c11": {
+            "direction": "O"
+          },
+          "sig_out_c10": {
+            "direction": "O"
+          },
+          "sig_out_c9": {
+            "direction": "O"
+          },
+          "sig_out_c8": {
+            "direction": "O"
+          },
+          "sig_out_c7": {
+            "direction": "O"
+          },
+          "sig_out_c6": {
+            "direction": "O"
+          },
+          "sig_out_c5": {
+            "direction": "O"
+          },
+          "sig_out_c4": {
+            "direction": "O"
+          },
+          "sig_out_c3": {
+            "direction": "O"
+          },
+          "sig_out_c2": {
+            "direction": "O"
+          },
+          "sig_out_c1": {
+            "direction": "O"
+          },
+          "sig_out_c0": {
+            "direction": "O"
+          },
+          "sig_out_c12": {
+            "direction": "O"
+          },
+          "sig_out_DONE": {
+            "direction": "O"
+          }
+        }
+      },
+      "circuit_Zaehler_3_0": {
+        "vlnv": "xilinx.com:module_ref:circuit_Zaehler_3:1.0",
+        "xci_name": "ExerciseBD_VZ_circuit_Zaehler_3_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "circuit_Zaehler_3",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sig_in_incCnt": {
+            "direction": "I"
+          },
+          "sig_in_Reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "sig_in_Text": {
+            "direction": "I"
+          },
+          "sig_out_Q0": {
+            "direction": "O"
+          },
+          "sig_out_Q1": {
+            "direction": "O"
+          },
+          "sig_out_null": {
+            "direction": "O"
+          }
+        }
+      },
+      "circuit_or_0": {
+        "vlnv": "xilinx.com:module_ref:circuit_or:1.0",
+        "xci_name": "ExerciseBD_VZ_circuit_or_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "circuit_or",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sig_in_0": {
+            "direction": "I"
+          },
+          "sig_in_1": {
+            "direction": "I"
+          },
+          "sig_out_0": {
+            "direction": "O"
+          }
+        }
+      },
+      "Entprellung_0": {
+        "vlnv": "xilinx.com:module_ref:Entprellung:1.0",
+        "xci_name": "ExerciseBD_VZ_Entprellung_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Entprellung",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "I_BUTTON": {
+            "direction": "I"
+          },
+          "O_BUTTON": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          }
+        }
+      },
+      "Operationswerk_0": {
+        "vlnv": "xilinx.com:module_ref:Operationswerk:1.0",
+        "xci_name": "ExerciseBD_VZ_Operationswerk_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Operationswerk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clock": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "INBUS": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "OUTBUS": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "c0": {
+            "direction": "I"
+          },
+          "c2": {
+            "direction": "I"
+          },
+          "c3": {
+            "direction": "I"
+          },
+          "c4": {
+            "direction": "I"
+          },
+          "c5": {
+            "direction": "I"
+          },
+          "c6": {
+            "direction": "I"
+          },
+          "c7": {
+            "direction": "I"
+          },
+          "c9": {
+            "direction": "I"
+          },
+          "c10": {
+            "direction": "I"
+          },
+          "c11": {
+            "direction": "I"
+          },
+          "c12": {
+            "direction": "I"
+          },
+          "k2": {
+            "direction": "O"
+          },
+          "A_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "Q_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "M_out": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "S_out": {
+            "direction": "O"
+          }
+        }
+      },
+      "sevenSegmentDisplay_0": {
+        "vlnv": "xilinx.com:module_ref:sevenSegmentDisplay:1.0",
+        "xci_name": "ExerciseBD_VZ_sevenSegmentDisplay_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sevenSegmentDisplay",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "Q": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "S": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "M": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "AN0": {
+            "direction": "O"
+          },
+          "AN1": {
+            "direction": "O"
+          },
+          "AN2": {
+            "direction": "O"
+          },
+          "AN3": {
+            "direction": "O"
+          },
+          "CA": {
+            "direction": "O"
+          },
+          "CB": {
+            "direction": "O"
+          },
+          "CC": {
+            "direction": "O"
+          },
+          "CD": {
+            "direction": "O"
+          },
+          "CE": {
+            "direction": "O"
+          },
+          "CF": {
+            "direction": "O"
+          },
+          "CG": {
+            "direction": "O"
+          },
+          "DP": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "ExerciseBD_VZ_util_vector_logic_0_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "ExerciseBD_VZ_xlconcat_0_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "4"
+          },
+          "dout_width": {
+            "value": "4"
+          }
+        }
+      },
+      "xlconcat_S": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "ExerciseBD_VZ_xlconcat_S_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "4"
+          },
+          "dout_width": {
+            "value": "4"
+          }
+        }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "ExerciseBD_VZ_xlconstant_0_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "circuit_Verzoerung_2_0/sig_in_Takt",
+          "Entprellung_0/clk",
+          "sevenSegmentDisplay_0/clk"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "xlconcat_S/In1",
+          "xlconcat_S/In2",
+          "xlconcat_S/In3"
+        ]
+      },
+      "sevenSegmentDisplay_0_AN0": {
+        "ports": [
+          "sevenSegmentDisplay_0/AN0",
+          "AN0"
+        ]
+      },
+      "sevenSegmentDisplay_0_AN1": {
+        "ports": [
+          "sevenSegmentDisplay_0/AN1",
+          "AN1"
+        ]
+      },
+      "sevenSegmentDisplay_0_AN2": {
+        "ports": [
+          "sevenSegmentDisplay_0/AN2",
+          "AN2"
+        ]
+      },
+      "sevenSegmentDisplay_0_AN3": {
+        "ports": [
+          "sevenSegmentDisplay_0/AN3",
+          "AN3"
+        ]
+      },
+      "sevenSegmentDisplay_0_CA": {
+        "ports": [
+          "sevenSegmentDisplay_0/CA",
+          "CA"
+        ]
+      },
+      "sevenSegmentDisplay_0_CB": {
+        "ports": [
+          "sevenSegmentDisplay_0/CB",
+          "CB"
+        ]
+      },
+      "sevenSegmentDisplay_0_CC": {
+        "ports": [
+          "sevenSegmentDisplay_0/CC",
+          "CC"
+        ]
+      },
+      "sevenSegmentDisplay_0_CD": {
+        "ports": [
+          "sevenSegmentDisplay_0/CD",
+          "CD"
+        ]
+      },
+      "sevenSegmentDisplay_0_CE": {
+        "ports": [
+          "sevenSegmentDisplay_0/CE",
+          "CE"
+        ]
+      },
+      "sevenSegmentDisplay_0_CF": {
+        "ports": [
+          "sevenSegmentDisplay_0/CF",
+          "CF"
+        ]
+      },
+      "sevenSegmentDisplay_0_CG": {
+        "ports": [
+          "sevenSegmentDisplay_0/CG",
+          "CG"
+        ]
+      },
+      "sevenSegmentDisplay_0_DP": {
+        "ports": [
+          "sevenSegmentDisplay_0/DP",
+          "DP"
+        ]
+      },
+      "xlconcat_S_dout": {
+        "ports": [
+          "xlconcat_S/dout",
+          "sevenSegmentDisplay_0/S"
+        ]
+      },
+      "SW15_1": {
+        "ports": [
+          "SW15",
+          "Entprellung_0/I_BUTTON"
+        ]
+      },
+      "Entprellung_0_O_BUTTON": {
+        "ports": [
+          "Entprellung_0/O_BUTTON",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "circuit_Zaehler_3_0/sig_in_Text",
+          "Operationswerk_0/clock"
+        ]
+      },
+      "Operationswerk_0_F_out": {
+        "ports": [
+          "Operationswerk_0/S_out",
+          "xlconcat_S/In0"
+        ]
+      },
+      "Operationswerk_0_A_out": {
+        "ports": [
+          "Operationswerk_0/A_out",
+          "sevenSegmentDisplay_0/A"
+        ]
+      },
+      "Operationswerk_0_Q_out": {
+        "ports": [
+          "Operationswerk_0/Q_out",
+          "sevenSegmentDisplay_0/Q"
+        ]
+      },
+      "Operationswerk_0_M_out": {
+        "ports": [
+          "Operationswerk_0/M_out",
+          "sevenSegmentDisplay_0/M"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "Operationswerk_0/INBUS"
+        ]
+      },
+      "SW0_1": {
+        "ports": [
+          "SW0",
+          "xlconcat_0/In0"
+        ]
+      },
+      "SW1_1": {
+        "ports": [
+          "SW1",
+          "xlconcat_0/In1"
+        ]
+      },
+      "SW2_1": {
+        "ports": [
+          "SW2",
+          "xlconcat_0/In2"
+        ]
+      },
+      "SW3_1": {
+        "ports": [
+          "SW3",
+          "xlconcat_0/In3"
+        ]
+      },
+      "BTND_1": {
+        "ports": [
+          "BTND",
+          "circuit_or_0/sig_in_1",
+          "circuit_Verzoerung_2_0/sig_in_reset",
+          "Entprellung_0/reset"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c11": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c11",
+          "LD11",
+          "Operationswerk_0/c11"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c10": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c10",
+          "LD10",
+          "Operationswerk_0/c10"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c9": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c9",
+          "LD9",
+          "Operationswerk_0/c9"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c7": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c7",
+          "LD7",
+          "Operationswerk_0/c7"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c6": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c6",
+          "LD6",
+          "Operationswerk_0/c6"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c5": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c5",
+          "LD5",
+          "Operationswerk_0/c5"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c4": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c4",
+          "LD4",
+          "Operationswerk_0/c4"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c3": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c3",
+          "LD3",
+          "Operationswerk_0/c3"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c2": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c2",
+          "LD2",
+          "Operationswerk_0/c2"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c0": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c0",
+          "LD0",
+          "Operationswerk_0/c0"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c12": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c12",
+          "LD12",
+          "Operationswerk_0/c12"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_DONE": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_DONE",
+          "LD15"
+        ]
+      },
+      "circuit_Zaehler_3_0_sig_out_null": {
+        "ports": [
+          "circuit_Zaehler_3_0/sig_out_null",
+          "circuit_Verzoerung_2_0/sig_in_k3"
+        ]
+      },
+      "circuit_Zaehler_3_0_sig_out_Q0": {
+        "ports": [
+          "circuit_Zaehler_3_0/sig_out_Q0",
+          "LD13"
+        ]
+      },
+      "circuit_Zaehler_3_0_sig_out_Q1": {
+        "ports": [
+          "circuit_Zaehler_3_0/sig_out_Q1",
+          "LD14"
+        ]
+      },
+      "Operationswerk_0_k2": {
+        "ports": [
+          "Operationswerk_0/k2",
+          "circuit_Verzoerung_2_0/sig_in_k2"
+        ]
+      },
+      "circuit_or_0_sig_out_0": {
+        "ports": [
+          "circuit_or_0/sig_out_0",
+          "circuit_Zaehler_3_0/sig_in_Reset"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c1": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c1",
+          "circuit_or_0/sig_in_0",
+          "LD1"
+        ]
+      },
+      "circuit_Verzoerung_2_0_sig_out_c8": {
+        "ports": [
+          "circuit_Verzoerung_2_0/sig_out_c8",
+          "circuit_Zaehler_3_0/sig_in_incCnt",
+          "LD8"
+        ]
+      },
+      "SW14_1": {
+        "ports": [
+          "SW14",
+          "circuit_Verzoerung_2_0/sig_in_k1"
+        ]
+      }
+    }
+  }
+}

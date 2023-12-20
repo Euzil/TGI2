@@ -1,0 +1,13 @@
+.equ LED,    0x1F0
+.equ SWITCH, 0x1F4
+.equ SEG,    0x1FC
+
+start:
+    	li x10, 10
+    	li x11, 7
+
+.word 0x02B50633
+.word 0x02B516B3	
+
+endless:
+    	j endless

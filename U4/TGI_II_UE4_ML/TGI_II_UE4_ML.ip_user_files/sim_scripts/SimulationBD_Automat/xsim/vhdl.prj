@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_Operationswerk_0_0/sim/SimulationBD_Automat_Operationswerk_0_0.vhd" \
+"../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_Steuerwerk_Moore_0_0/sim/SimulationBD_Automat_Steuerwerk_Moore_0_0.vhd" \
+"../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_circuit_Zaehler_3_0_0/sim/SimulationBD_Automat_circuit_Zaehler_3_0_0.vhd" \
+"../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_circuit_or_0_0/sim/SimulationBD_Automat_circuit_or_0_0.vhd" \
+"../../../bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd" \
+
+nosort

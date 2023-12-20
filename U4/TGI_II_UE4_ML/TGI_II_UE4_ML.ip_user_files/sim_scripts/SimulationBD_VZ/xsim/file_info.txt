@@ -1,0 +1,9 @@
+SimulationBD_VZ_Operationswerk_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_VZ/ip/SimulationBD_VZ_Operationswerk_0_0/sim/SimulationBD_VZ_Operationswerk_0_0.vhd,
+SimulationBD_VZ_xlconcat_0_0.v,verilog,xil_defaultlib,../../../bd/SimulationBD_VZ/ip/SimulationBD_VZ_xlconcat_0_0/sim/SimulationBD_VZ_xlconcat_0_0.v,
+SimulationBD_VZ_util_vector_logic_0_0.v,verilog,xil_defaultlib,../../../bd/SimulationBD_VZ/ip/SimulationBD_VZ_util_vector_logic_0_0/sim/SimulationBD_VZ_util_vector_logic_0_0.v,
+SimulationBD_VZ_xlconcat_1_0.v,verilog,xil_defaultlib,../../../bd/SimulationBD_VZ/ip/SimulationBD_VZ_xlconcat_1_0/sim/SimulationBD_VZ_xlconcat_1_0.v,
+SimulationBD_VZ_circuit_Verzoerung_2_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoerung_2_0_0/sim/SimulationBD_VZ_circuit_Verzoerung_2_0_0.vhd,
+SimulationBD_VZ_circuit_Zaehler_3_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Zaehler_3_0_0/sim/SimulationBD_VZ_circuit_Zaehler_3_0_0.vhd,
+SimulationBD_VZ_circuit_or_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_or_0_0/sim/SimulationBD_VZ_circuit_or_0_0.vhd,
+SimulationBD_VZ.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

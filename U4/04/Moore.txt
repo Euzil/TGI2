@@ -1,0 +1,189 @@
+----------------------------------------------------------------------------------
+-- Company: Universitaet zu Luebeck
+-- Engineer: Daniel Kamp
+-- 
+-- Create Date: 2022.04.01
+-- Design Name: 
+-- Module Name: Steuerwerk_Moore
+-- Project Name: TGI_PÜ4_2.2
+
+
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+entity Steuerwerk_Moore is
+Port (
+    clock  : IN  STD_LOGIC;
+    reset  : IN  STD_LOGIC;
+    c0     : OUT STD_LOGIC;
+    c1     : OUT STD_LOGIC;
+    c2     : OUT STD_LOGIC;
+    c3     : OUT STD_LOGIC;
+    c4     : OUT STD_LOGIC;
+    c5     : OUT STD_LOGIC;
+    c6     : OUT STD_LOGIC;
+    c7     : OUT STD_LOGIC;
+    c8     : OUT STD_LOGIC;
+    c9     : OUT STD_LOGIC;
+    c10    : OUT STD_LOGIC;
+    c11    : OUT STD_LOGIC;
+    c12    : OUT STD_LOGIC;
+    k1     : IN  STD_LOGIC;   
+    k2     : IN  STD_LOGIC;
+    k3     : IN  STD_LOGIC;
+    DONE   : OUT STD_LOGIC
+ );
+end Steuerwerk_Moore;
+
+architecture Behavioral of Steuerwerk_Moore is
+
+--geben Sie in den Klammern ihre Zustaende an
+type state_typ is ( start,  loadA, loadQ, loadM, shiftSAQ, subtract, pos, neg, outA, outQ, end);
+signal state,next_state : state_typ := start;
+
+    
+begin
+
+    Zustandsregister : process (clock, reset)
+    begin
+        if rising_edge(clock) then
+	   if reset = '1' then
+		state <= start;
+	   else
+		state <= next_state;
+	   end if;
+	end if;
+        
+    end process;
+    
+    Zustandsuebergangslogik : process (state, k1, k2, k3)
+    begin
+        case state is
+		
+		when start =>
+		   if k1 = '1' then
+			next_state <= loadA;
+		   else
+			next_state <= start;
+		   end if;
+
+		when loadA =>
+		   next_state <= loadQ;
+
+		when loadQ =>
+		   next_state <= loadM;
+
+		when loadM =>
+		   next_state <= shiftSAQ;
+
+		when shiftSAQ =>
+		   next_state <= subtract;
+
+		when subtract =>
+		   if k2 = '1' then
+			next_state <= pos;
+		   else
+			next_state <= neg;
+		   end if;
+
+		when pos =>
+		   if k3 = '1' then
+			next_state <= outA;
+		   else
+			next_state <= shiftSAQ;
+		   end if;
+
+		when neg =>
+		   if k3 = '1' then
+			next_state <= outA;
+		   else
+			next_state <= shiftSAQ;
+		   end if;
+                
+		when outA =>
+		   next_state <= outQ;
+
+		when outQ =>
+		   next_state <= end;
+		
+		when end =>
+		   next_state <= end;
+
+        end case;
+    end process;
+        
+
+    Ausgabelogik : process (state)
+    begin
+        c0   <= '0';
+        c1   <= '0';
+        c2   <= '0';
+        c3   <= '0';
+        c4   <= '0';
+        c5   <= '0';
+        c6   <= '0';
+        c7   <= '0';
+        c8   <= '0';
+        c9   <= '0';
+        c10  <= '0';
+        c11  <= '0';
+        c12  <= '0';
+        DONE <= '0';
+        
+        case state is
+        
+			--null bedeutet das für diesen Fall alle oben angegebene Standardwerte für die Ausgabe übernommen werden
+            when start =>
+                null;
+
+	    when loadA =>
+        	c1   <= '1';
+        	c5   <= '1';
+        	c7   <= '1';
+
+	    when loadQ =>
+        	c4   <= '1';
+        	c11  <= '1';
+
+	    when loadM =>
+        	c3   <= '1';
+
+	    when shiftSAQ =>
+        	c5   <= '1';
+        	c6   <= '1';
+        	c11  <= '1';
+        	c12  <= '1';
+        	c8   <= '1';
+
+	    when subtract =>
+        	c0   <= '1';
+        	c2   <= '1';
+        	c5   <= '1';
+        	c9   <= '1';
+
+	    when pos =>
+        	c11  <= '1';
+
+	    when neg =>
+        	c2   <= '1';
+        	c5   <= '1';
+
+	    when outA =>
+		null;
+
+	    when outQ =>
+        	c10  <= '1';
+
+	    when end =>
+        	DONE <= '1';
+
+	end case;
+                    
+    end process;
+
+
+end Behavioral;

@@ -1,0 +1,49 @@
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_4 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling architecture behavioral of entity xil_defaultlib.Operationswerk [operationswerk_default]
+Compiling architecture simulationbd_vz_operationswerk_0_0_arch of entity xil_defaultlib.SimulationBD_VZ_Operationswerk_0_0 [simulationbd_vz_operationswerk_0...]
+Compiling architecture dataflow of entity xil_defaultlib.AND_2 [and_2_default]
+Compiling architecture dataflow of entity xil_defaultlib.OR_2 [or_2_default]
+Compiling architecture dataflow of entity xil_defaultlib.OR_4 [or_4_default]
+Compiling architecture dataflow of entity xil_defaultlib.OR_3 [or_3_default]
+Compiling architecture behavior of entity xil_defaultlib.D_CL_ET_Reset_FF [d_cl_et_reset_ff_default]
+Compiling architecture structure of entity xil_defaultlib.circuit_Verzoerung_2 [circuit_verzoerung_2_default]
+Compiling architecture simulationbd_vz_circuit_verzoerung_2_0_0_arch of entity xil_defaultlib.SimulationBD_VZ_circuit_Verzoerung_2_0_0 [simulationbd_vz_circuit_verzoeru...]
+Compiling architecture dataflow of entity xil_defaultlib.Exor_2 [exor_2_default]
+Compiling architecture structure of entity xil_defaultlib.circuit_Zaehler_3 [circuit_zaehler_3_default]
+Compiling architecture simulationbd_vz_circuit_zaehler_3_0_0_arch of entity xil_defaultlib.SimulationBD_VZ_circuit_Zaehler_3_0_0 [simulationbd_vz_circuit_zaehler_...]
+Compiling architecture structure of entity xil_defaultlib.circuit_or [circuit_or_default]
+Compiling architecture simulationbd_vz_circuit_or_0_0_arch of entity xil_defaultlib.SimulationBD_VZ_circuit_or_0_0 [simulationbd_vz_circuit_or_0_0_d...]
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.SimulationBD_VZ_util_vector_logi...
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat(dout_wi...
+Compiling module xil_defaultlib.SimulationBD_VZ_xlconcat_0_0
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat_default
+Compiling module xil_defaultlib.SimulationBD_VZ_xlconcat_1_0
+Compiling architecture structure of entity xil_defaultlib.SimulationBD_VZ [simulationbd_vz_default]
+Compiling architecture simulationbd_automat_operationswerk_0_0_arch of entity xil_defaultlib.SimulationBD_Automat_Operationswerk_0_0 [simulationbd_automat_operationsw...]
+Compiling architecture behavioral of entity xil_defaultlib.Steuerwerk_Moore [steuerwerk_moore_default]
+Compiling architecture simulationbd_automat_steuerwerk_moore_0_0_arch of entity xil_defaultlib.SimulationBD_Automat_Steuerwerk_Moore_0_0 [simulationbd_automat_steuerwerk_...]
+Compiling architecture simulationbd_automat_circuit_zaehler_3_0_0_arch of entity xil_defaultlib.SimulationBD_Automat_circuit_Zaehler_3_0_0 [simulationbd_automat_circuit_zae...]
+Compiling architecture simulationbd_automat_circuit_or_0_0_arch of entity xil_defaultlib.SimulationBD_Automat_circuit_or_0_0 [simulationbd_automat_circuit_or_...]
+Compiling module xil_defaultlib.SimulationBD_Automat_util_vector...
+Compiling module xil_defaultlib.SimulationBD_Automat_xlconcat_0_...
+Compiling module xlconcat_v2_1_4.xlconcat_v2_1_4_xlconcat_default...
+Compiling module xil_defaultlib.SimulationBD_Automat_xlconcat_1_...
+Compiling architecture structure of entity xil_defaultlib.SimulationBD_Automat [simulationbd_automat_default]
+Compiling module xil_defaultlib.Testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Testbench_behav

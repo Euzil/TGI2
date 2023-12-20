@@ -1,0 +1,25 @@
+## MUL2cFract (in: INBUS; out: OUTBUS)
+#  Zweierkpmplement-Multiplizierer (Dualbrueche)
+
+declare register  F, A(3:0), Q(3:0), M(3:0), COUNT(1:0)
+declare bus       INBUS(3:0), OUTBUS(3:0)
+
+BEGIN:            A <- 0, COUNT <- 0, F <- 0,
+INPUT:            M <- INBUS;	
+                  Q <- INBUS;
+
+ADD:              if Q(0) then 
+                    A <- A + M,
+                    F <- M(3) and Q(0) or F 
+                  fi;
+RSHIFT:           A(3) <- F, A(2:0).Q <- A.Q(3:1),
+                  COUNT <- COUNT + 1;
+TEST:             if COUNT <> 3 then 
+                    goto ADD 
+                  else
+                    if Q(0) then 
+                      A <- A - M, Q(0) <- 0 
+                    fi 
+                  fi;
+OUTPUT:           OUTBUS <- Q;
+                  OUTBUS <- A; 

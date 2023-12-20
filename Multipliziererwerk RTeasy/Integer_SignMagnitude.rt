@@ -1,0 +1,22 @@
+## MULsm (in: INBUS; out: OUTBUS)
+# Sign-Magnitude Multiplizierer
+
+declare register    A(7:0), Q(7:0), M(7:0), COUNT(2:0)
+declare bus         INBUS(7:0), OUTBUS(7:0)
+INIT:               A <- 0, COUNT <- 0,
+INPUT:              M <- INBUS;
+                    Q <- INBUS;
+
+ADD:                if Q(0) = 1 then 
+                        A(7:0) <- A(6:0) + M(6:0)
+                    else 
+                        A(7:0) <- A(6:0) + 0 
+                    fi;
+RSHIFT:             A(7) <- 0, A(6:0).Q <- A.Q(7:1),
+TEST:               if COUNT <> 6 then 
+                        COUNT <- COUNT + 1, goto ADD 
+                    fi;
+	
+SIGN:               A(7) <- M(7) xor Q(0), A(6:0).Q<-A.Q(7:1);
+OUTPUT:             OUTBUS <- Q;
+                    OUTBUS <- A; 

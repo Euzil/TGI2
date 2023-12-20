@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="200.718 ns"></ZoomEndTime>
+      <Cursor1Time time="150.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/Testbench/Clock" type="logic">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/Inbus" type="array">
+      <obj_property name="ElementShortName">Inbus[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Inbus[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/Start" type="logic">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/VZ_Done" type="logic">
+      <obj_property name="ElementShortName">VZ_Done</obj_property>
+      <obj_property name="ObjectShortName">VZ_Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/VZ_Counter" type="array">
+      <obj_property name="ElementShortName">VZ_Counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">VZ_Counter[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/VZ_S" type="array">
+      <obj_property name="ElementShortName">VZ_S[0:0]</obj_property>
+      <obj_property name="ObjectShortName">VZ_S[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/VZ_A" type="array">
+      <obj_property name="ElementShortName">VZ_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VZ_A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/VZ_Q" type="array">
+      <obj_property name="ElementShortName">VZ_Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VZ_Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/VZ_M" type="array">
+      <obj_property name="ElementShortName">VZ_M[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VZ_M[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/VZ_CS" type="array">
+      <obj_property name="ElementShortName">VZ_CS[12:0]</obj_property>
+      <obj_property name="ObjectShortName">VZ_CS[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_Done" type="logic">
+      <obj_property name="ElementShortName">AT_Done</obj_property>
+      <obj_property name="ObjectShortName">AT_Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_Counter" type="array">
+      <obj_property name="ElementShortName">AT_Counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_Counter[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_S" type="array">
+      <obj_property name="ElementShortName">AT_S[0:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_S[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_A" type="array">
+      <obj_property name="ElementShortName">AT_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_Done" type="logic">
+      <obj_property name="ElementShortName">AT_Done</obj_property>
+      <obj_property name="ObjectShortName">AT_Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_Counter" type="array">
+      <obj_property name="ElementShortName">AT_Counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_Counter[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_S" type="array">
+      <obj_property name="ElementShortName">AT_S[0:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_S[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_A" type="array">
+      <obj_property name="ElementShortName">AT_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_Q" type="array">
+      <obj_property name="ElementShortName">AT_Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_M" type="array">
+      <obj_property name="ElementShortName">AT_M[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_M[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/AT_CS" type="array">
+      <obj_property name="ElementShortName">AT_CS[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AT_CS[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/expected_A" type="array">
+      <obj_property name="ElementShortName">expected_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_A[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/expected_Q" type="array">
+      <obj_property name="ElementShortName">expected_Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0_dout" type="array">
+      <obj_property name="ElementShortName">xlconcat_0_dout[12:0]</obj_property>
+      <obj_property name="ObjectShortName">xlconcat_0_dout[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In0" type="array">
+      <obj_property name="ElementShortName">In0[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In0[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In1" type="array">
+      <obj_property name="ElementShortName">In1[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In1[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In2" type="array">
+      <obj_property name="ElementShortName">In2[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In2[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In3" type="array">
+      <obj_property name="ElementShortName">In3[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In3[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In4" type="array">
+      <obj_property name="ElementShortName">In4[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In4[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In5" type="array">
+      <obj_property name="ElementShortName">In5[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In5[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In6" type="array">
+      <obj_property name="ElementShortName">In6[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In6[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In7" type="array">
+      <obj_property name="ElementShortName">In7[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In7[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In8" type="array">
+      <obj_property name="ElementShortName">In8[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In8[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In9" type="array">
+      <obj_property name="ElementShortName">In9[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In9[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In10" type="array">
+      <obj_property name="ElementShortName">In10[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In10[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In11" type="array">
+      <obj_property name="ElementShortName">In11[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In11[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/In12" type="array">
+      <obj_property name="ElementShortName">In12[0:0]</obj_property>
+      <obj_property name="ObjectShortName">In12[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_vz/xlconcat_0/dout" type="array">
+      <obj_property name="ElementShortName">dout[12:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/tb_bd_inst_automat/xlconcat_0_dout" type="array">
+      <obj_property name="ElementShortName">xlconcat_0_dout[12:0]</obj_property>
+      <obj_property name="ObjectShortName">xlconcat_0_dout[12:0]</obj_property>
+   </wvobject>
+</wave_config>

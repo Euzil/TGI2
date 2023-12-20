@@ -1,0 +1,60 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.82967",
+   "Default View_TopLeft":"-435,-260",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -50 -y -130 -defaultsOSRD
+preplace port port-id_k1_start -pg 1 -lvl 0 -x -50 -y -150 -defaultsOSRD
+preplace port port-id_Sign -pg 1 -lvl 4 -x 1090 -y 520 -defaultsOSRD
+preplace port port-id_Done -pg 1 -lvl 4 -x 1090 -y -150 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -50 -y 300 -defaultsOSRD
+preplace portBus INBUS -pg 1 -lvl 0 -x -50 -y 370 -defaultsOSRD
+preplace portBus A -pg 1 -lvl 4 -x 1090 -y 460 -defaultsOSRD
+preplace portBus Q -pg 1 -lvl 4 -x 1090 -y 480 -defaultsOSRD
+preplace portBus M -pg 1 -lvl 4 -x 1090 -y 500 -defaultsOSRD
+preplace portBus COUNTER -pg 1 -lvl 4 -x 1090 -y 240 -defaultsOSRD
+preplace portBus CS -pg 1 -lvl 4 -x 1090 -y 10 -defaultsOSRD
+preplace inst circuit_Verzoerung_2_0 -pg 1 -lvl 2 -x 480 -y -40 -defaultsOSRD
+preplace inst circuit_Zaehler_3_0 -pg 1 -lvl 1 -x 140 -y -80 -defaultsOSRD
+preplace inst circuit_or_0 -pg 1 -lvl 1 -x 140 -y 50 -defaultsOSRD
+preplace inst Operationswerk_0 -pg 1 -lvl 3 -x 920 -y 470 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 480 -y 330 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 920 -y -10 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 3 -x 920 -y 220 -defaultsOSRD
+preplace netloc Steuerwerk_Moore_0_c0 1 2 1 750 -130n
+preplace netloc Steuerwerk_Moore_0_c2 1 2 1 760 -90n
+preplace netloc Steuerwerk_Moore_0_c3 1 2 1 770 -70n
+preplace netloc Steuerwerk_Moore_0_c4 1 2 1 780 -50n
+preplace netloc Steuerwerk_Moore_0_c5 1 2 1 660 -50n
+preplace netloc Steuerwerk_Moore_0_c6 1 2 1 670 -70n
+preplace netloc Steuerwerk_Moore_0_c7 1 2 1 680 -90n
+preplace netloc Steuerwerk_Moore_0_c12 1 2 1 640 70n
+preplace netloc Steuerwerk_Moore_0_c11 1 2 1 710 -170n
+preplace netloc Steuerwerk_Moore_0_c10 1 2 1 700 -150n
+preplace netloc Steuerwerk_Moore_0_c9 1 2 1 690 -130n
+preplace netloc INBUS_1 1 0 3 NJ 370 300 390 740J
+preplace netloc Operationswerk_0_A_out 1 3 1 NJ 460
+preplace netloc Operationswerk_0_Q_out 1 3 1 NJ 480
+preplace netloc Operationswerk_0_M_out 1 3 1 NJ 500
+preplace netloc Operationswerk_0_S_out 1 3 1 NJ 520
+preplace netloc xlconcat_0_dout 1 3 1 1050J -10n
+preplace netloc xlconcat_1_dout 1 3 1 1050J 220n
+preplace netloc reset_1 1 0 2 -30 -180 310
+preplace netloc k1_start_1 1 0 2 -20 -160 330
+preplace netloc Operationswerk_0_k2 1 1 3 330 400 730J 290 1050
+preplace netloc circuit_Zaehler_3_0_sig_out_null 1 1 1 290 -60n
+preplace netloc circuit_Verzoerung_2_0_sig_out_c8 1 0 3 -10 -250 NJ -250 640
+preplace netloc circuit_Zaehler_3_0_sig_out_Q0 1 1 2 300J -230 730
+preplace netloc circuit_Zaehler_3_0_sig_out_Q1 1 1 2 290J -240 740
+preplace netloc util_vector_logic_0_Res 1 0 3 -10 410 NJ 410 630
+preplace netloc circuit_or_0_sig_out_0 1 0 2 0 -170 280
+preplace netloc circuit_Verzoerung_2_0_sig_out_c1 1 0 3 0 150 N 150 720
+preplace netloc clk_1 1 0 2 NJ 300 320
+preplace netloc circuit_Verzoerung_2_0_sig_out_DONE 1 2 2 650 -190 1050J
+levelinfo -pg 1 -50 140 480 920 1090
+pagesize -pg 1 -db -bbox -sgen -170 -270 1240 820
+"
+}
+0

@@ -1,0 +1,9 @@
+SimulationBD_Automat_Operationswerk_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_Operationswerk_0_0/sim/SimulationBD_Automat_Operationswerk_0_0.vhd,
+SimulationBD_Automat_xlconcat_0_0.v,verilog,xil_defaultlib,../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_xlconcat_0_0/sim/SimulationBD_Automat_xlconcat_0_0.v,
+SimulationBD_Automat_util_vector_logic_0_0.v,verilog,xil_defaultlib,../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_util_vector_logic_0_0/sim/SimulationBD_Automat_util_vector_logic_0_0.v,
+SimulationBD_Automat_xlconcat_1_0.v,verilog,xil_defaultlib,../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_xlconcat_1_0/sim/SimulationBD_Automat_xlconcat_1_0.v,
+SimulationBD_Automat_Steuerwerk_Moore_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_Steuerwerk_Moore_0_0/sim/SimulationBD_Automat_Steuerwerk_Moore_0_0.vhd,
+SimulationBD_Automat_circuit_Zaehler_3_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_circuit_Zaehler_3_0_0/sim/SimulationBD_Automat_circuit_Zaehler_3_0_0.vhd,
+SimulationBD_Automat_circuit_or_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_Automat/ip/SimulationBD_Automat_circuit_or_0_0/sim/SimulationBD_Automat_circuit_or_0_0.vhd,
+SimulationBD_Automat.vhd,vhdl,xil_defaultlib,../../../bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

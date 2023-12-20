@@ -1,0 +1,827 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Thu Jan 20 15:28:04 2022
+# Process ID: 4228
+# Current directory: C:/Users/Admin/OneDrive/桌面/TGI_II_UE4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3664 C:\Users\Admin\OneDrive\桌面\TGI_II_UE4\TGI_II_UE4.xpr
+# Log file: C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/vivado.log
+# Journal file: C:/Users/Admin/OneDrive/桌面/TGI_II_UE4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xcvc1802-viva1596-1LHP-i-L C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/user/Desktop/Praktische_Uebung_4/TGI_II_UE4' since last save.
+INFO: [Project 1-563] Overriding project part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.cache/ip', nor could it be found using path 'C:/Users/user/Desktop/Praktische_Uebung_4/TGI_II_UE4_ML/TGI_II_UE4_ML.cache/ip'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files', nor could it be found using path 'C:/Users/user/Desktop/Praktische_Uebung_4/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-573] Overriding 'synth_1' run's part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+INFO: [Project 1-573] Overriding 'vio_0_synth_1' run's part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+INFO: [Project 1-573] Overriding 'impl_1' run's part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+INFO: [Project 1-573] Overriding 'vio_0_impl_1' run's part, 'xc7a35tcpg236-1', with new part: 'xcvc1802-viva1596-1LHP-i-L'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.3/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'ExerciseBD_VZ.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+ExerciseBD_VZ_xlconcat_S_0
+ExerciseBD_VZ_util_vector_logic_0_0
+ExerciseBD_VZ_xlconstant_0_0
+ExerciseBD_VZ_xlconcat_0_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'ExerciseBD_Automat.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+ExerciseBD_Automat_util_vector_logic_0_0
+ExerciseBD_Automat_xlconstant_0_0
+ExerciseBD_Automat_xlconcat_0_0
+ExerciseBD_Automat_xlconcat_S_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'SimulationBD_VZ.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+SimulationBD_VZ_xlconcat_0_0
+SimulationBD_VZ_util_vector_logic_0_0
+SimulationBD_VZ_xlconcat_1_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'SimulationBD_Automat.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+SimulationBD_Automat_xlconcat_0_0
+SimulationBD_Automat_util_vector_logic_0_0
+SimulationBD_Automat_xlconcat_1_0
+
+WARNING: [IP_Flow 19-2162] IP 'vio_0' is locked:
+* IP 'vio_0' does not support the current project part 'xcvc1802-viva1596-1LHP-i-L'. Note that part differences may result in undefined behavior.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1102.961 ; gain = 0.000
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/Admin/OneDrive/桌面/Zaehler_3.vhdl C:/Users/Admin/OneDrive/桌面/Verzoegerungskette_Steuerwerk.vhdl C:/Users/Admin/OneDrive/桌面/Moore-Template.vhdl}
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd}
+Reading block design file <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd>...
+Adding component instance block -- xilinx.com:module_ref:Operationswerk:1.0 - Operationswerk_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Successfully read diagram <SimulationBD_VZ> from block design file <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd>
+create_bd_cell -type module -reference circuit_Verzoegerungskette_Steuerwerk circuit_Verzoegerung_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'sig_in_reset' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+delete_bd_objs [get_bd_cells circuit_Verzoegerung_0]
+add_files -norecurse {C:/Users/Admin/OneDrive/桌面/Zaehler_3.vhdl C:/Users/Admin/OneDrive/桌面/Moore-Template.vhdl C:/Users/Admin/OneDrive/桌面/Verzoerung_2.vhdl}
+WARNING: [filemgmt 56-12] File 'C:/Users/Admin/OneDrive/桌面/Zaehler_3.vhdl' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File 'C:/Users/Admin/OneDrive/桌面/Moore-Template.vhdl' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference circuit_Verzoerung_2 circuit_Verzoerung_2_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'sig_in_reset' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+connect_bd_net [get_bd_ports reset] [get_bd_pins circuit_Verzoerung_2_0/sig_in_reset]
+connect_bd_net [get_bd_ports k1_start] [get_bd_pins circuit_Verzoerung_2_0/sig_in_k1]
+connect_bd_net [get_bd_ports clk] [get_bd_pins circuit_Verzoerung_2_0/sig_in_Takt]
+connect_bd_net [get_bd_pins Operationswerk_0/k2] [get_bd_pins circuit_Verzoerung_2_0/sig_in_k2]
+create_bd_cell -type module -reference circuit_Zaehler_3 circuit_Zaehler_3_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'sig_in_Reset' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_null] [get_bd_pins circuit_Verzoerung_2_0/sig_in_k3]
+set_property location {1 145 -29} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 147 -61} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 146 -49} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 146 -45} [get_bd_cells circuit_Zaehler_3_0]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins circuit_Zaehler_3_0/sig_in_Reset]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins circuit_Zaehler_3_0/sig_in_Text]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c8] [get_bd_pins circuit_Zaehler_3_0/sig_in_incCnt]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c11] [get_bd_pins xlconcat_0/In11]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c10] [get_bd_pins xlconcat_0/In10]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c9] [get_bd_pins xlconcat_0/In9]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c8] [get_bd_pins xlconcat_0/In8]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c7] [get_bd_pins xlconcat_0/In7]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c6] [get_bd_pins Operationswerk_0/c6]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c5] [get_bd_pins Operationswerk_0/c5]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c4] [get_bd_pins Operationswerk_0/c4]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c3] [get_bd_pins Operationswerk_0/c3]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c2] [get_bd_pins xlconcat_0/In2]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c1] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c0] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins circuit_Verzoerung_2_0/sig_out_c12] [get_bd_pins xlconcat_0/In12]
+connect_bd_net [get_bd_ports Done] [get_bd_pins circuit_Verzoerung_2_0/sig_out_DONE]
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_Q0] [get_bd_pins xlconcat_1/In0]
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_Q1] [get_bd_pins xlconcat_1/In1]
+save_bd_design
+Wrote  : <C:\Users\Admin\OneDrive\桌面\TGI_II_UE4\TGI_II_UE4.srcs\sources_1\bd\SimulationBD_VZ\SimulationBD_VZ.bd> 
+Wrote  : <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ui/bd_b2d7d29a.ui> 
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoegerung_0_0/SimulationBD_VZ_circuit_Verzoegerung_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v" into library xlconcat_v2_1_3
+INFO: [VRFC 10-311] analyzing module xlconcat_v2_1_3_xlconcat
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_xlconcat_0_0/sim/SimulationBD_Automat_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimulationBD_Automat_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/ipshared/2137/hdl/util_vector_logic_v2_0_vl_rfs.v" into library util_vector_logic_v2_0_1
+INFO: [VRFC 10-311] analyzing module util_vector_logic_v2_0_1_util_vector_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_util_vector_logic_0_0/sim/SimulationBD_Automat_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimulationBD_Automat_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_xlconcat_1_0/sim/SimulationBD_Automat_xlconcat_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimulationBD_Automat_xlconcat_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_xlconcat_0_0/sim/SimulationBD_VZ_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimulationBD_VZ_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_util_vector_logic_0_0/sim/SimulationBD_VZ_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimulationBD_VZ_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_xlconcat_1_0/sim/SimulationBD_VZ_xlconcat_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimulationBD_VZ_xlconcat_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj Testbench_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/new/Operationswerk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Operationswerk'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/Verzoegerungskette_Steuerwerk.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AND_2'
+INFO: [VRFC 10-3107] analyzing entity 'OR_2'
+INFO: [VRFC 10-3107] analyzing entity 'D_CL_ET_Reset_FF'
+INFO: [VRFC 10-3107] analyzing entity 'OR_4'
+INFO: [VRFC 10-3107] analyzing entity 'OR_3'
+INFO: [VRFC 10-3107] analyzing entity 'circuit_Verzoegerungskette_Steuerwerk'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/Verzoerung_2.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AND_2'
+INFO: [VRFC 10-3107] analyzing entity 'OR_2'
+INFO: [VRFC 10-3107] analyzing entity 'D_CL_ET_Reset_FF'
+INFO: [VRFC 10-3107] analyzing entity 'OR_4'
+INFO: [VRFC 10-3107] analyzing entity 'OR_3'
+INFO: [VRFC 10-3107] analyzing entity 'circuit_Verzoerung_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/Zaehler_3.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_CL_ET_Reset_FF'
+INFO: [VRFC 10-3107] analyzing entity 'AND_2'
+INFO: [VRFC 10-3107] analyzing entity 'Exor_2'
+INFO: [VRFC 10-3107] analyzing entity 'OR_2'
+INFO: [VRFC 10-3107] analyzing entity 'circuit_Zaehler_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/ip/SimulationBD_Automat_Operationswerk_0_0/sim/SimulationBD_Automat_Operationswerk_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SimulationBD_Automat_Operationswerk_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SimulationBD_Automat'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/ip/SimulationBD_VZ_Operationswerk_0_0/sim/SimulationBD_VZ_Operationswerk_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SimulationBD_VZ_Operationswerk_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SimulationBD_VZ'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xelab -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'simulationbd_vz_circuit_sw_moore_vz_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:183]
+WARNING: [VRFC 10-4940] 'simulationbd_vz_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:205]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:32]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_steuerwerk_moore_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:184]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:206]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:50]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling architecture behavioral of entity xil_defaultlib.Operationswerk [operationswerk_default]
+Compiling architecture simulationbd_vz_operationswerk_0_0_arch of entity xil_defaultlib.SimulationBD_VZ_Operationswerk_0_0 [simulationbd_vz_operationswerk_0...]
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.SimulationBD_VZ_util_vector_logi...
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.SimulationBD_VZ_xlconcat_0_0
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(IN0_WID...
+Compiling module xil_defaultlib.SimulationBD_VZ_xlconcat_1_0
+Compiling architecture structure of entity xil_defaultlib.SimulationBD_VZ [simulationbd_vz_default]
+Compiling architecture simulationbd_automat_operationswerk_0_0_arch of entity xil_defaultlib.SimulationBD_Automat_Operationswerk_0_0 [simulationbd_automat_operationsw...]
+Compiling module xil_defaultlib.SimulationBD_Automat_util_vector...
+Compiling module xil_defaultlib.SimulationBD_Automat_xlconcat_0_...
+Compiling module xil_defaultlib.SimulationBD_Automat_xlconcat_1_...
+Compiling architecture structure of entity xil_defaultlib.SimulationBD_Automat [simulationbd_automat_default]
+Compiling module xil_defaultlib.Testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Testbench_behav
+
+****** Webtalk v2020.3 (64-bit)
+  **** SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+  **** IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim/xsim.dir/Testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim/xsim.dir/Testbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jan 20 15:37:19 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 20 15:37:19 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1102.961 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_behav -key {Behavioral:sim_1:Functional:Testbench} -tclbatch {Testbench.tcl} -protoinst "protoinst_files/ExerciseBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_Automat.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ExerciseBD_VZ.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ExerciseBD_VZ.protoinst for the following reason(s):
+There are no instances of module "ExerciseBD_VZ" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_VZ.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_Automat.protoinst
+Time resolution is 1 ps
+source Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1102.961 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0_dout}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In0}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In1}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In2}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In3}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In4}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In5}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In6}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In7}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In8}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In9}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In10}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In11}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/In12}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/Testbench/tb_bd_inst_vz/xlconcat_0/dout}} 
+save_wave_config {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+set_property xsim.view C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1102.961 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoegerung_0_0/SimulationBD_VZ_circuit_Verzoegerung_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_vlog.prj"
+"xvhdl --incr --relax -prj Testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xelab -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'simulationbd_vz_circuit_sw_moore_vz_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:183]
+WARNING: [VRFC 10-4940] 'simulationbd_vz_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:205]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:32]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_steuerwerk_moore_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:184]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:206]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:50]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_behav -key {Behavioral:sim_1:Functional:Testbench} -tclbatch {Testbench.tcl} -protoinst "protoinst_files/ExerciseBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_Automat.protoinst" -view {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ExerciseBD_VZ.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ExerciseBD_VZ.protoinst for the following reason(s):
+There are no instances of module "ExerciseBD_VZ" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_VZ.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_Automat.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1102.961 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1102.961 ; gain = 0.000
+open_bd_design {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd}
+Reading block design file <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd>...
+Adding component instance block -- xilinx.com:module_ref:Operationswerk:1.0 - Operationswerk_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Successfully read diagram <SimulationBD_Automat> from block design file <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd>
+create_bd_cell -type module -reference Steuerwerk_Moore Steuerwerk_Moore_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clock' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clock': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clock' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+connect_bd_net [get_bd_ports k1_start] [get_bd_pins Steuerwerk_Moore_0/k1]
+create_bd_cell -type module -reference circuit_Zaehler_3 circuit_Zaehler_3_0
+set_property location {1 157 139} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 161 151} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 162 178} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 158 161} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 165 149} [get_bd_cells circuit_Zaehler_3_0]
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_null] [get_bd_pins Steuerwerk_Moore_0/k3]
+set_property location {1 161 158} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 160 162} [get_bd_cells circuit_Zaehler_3_0]
+set_property location {1 162 169} [get_bd_cells circuit_Zaehler_3_0]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c0] [get_bd_pins Operationswerk_0/c0]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c2] [get_bd_pins Operationswerk_0/c2]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c1] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c3] [get_bd_pins Operationswerk_0/c3]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c4] [get_bd_pins Operationswerk_0/c4]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c5] [get_bd_pins Operationswerk_0/c5]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c6] [get_bd_pins Operationswerk_0/c6]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c7] [get_bd_pins Operationswerk_0/c7]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c8] [get_bd_pins xlconcat_0/In8]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c9] [get_bd_pins Operationswerk_0/c9]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c10] [get_bd_pins Operationswerk_0/c10]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c11] [get_bd_pins Operationswerk_0/c11]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c12] [get_bd_pins Operationswerk_0/c12]
+connect_bd_net [get_bd_ports Done] [get_bd_pins Steuerwerk_Moore_0/DONE]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+current_bd_design [get_bd_designs SimulationBD_Automat]
+connect_bd_net [get_bd_ports clk] [get_bd_pins Steuerwerk_Moore_0/clock]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+current_bd_design [get_bd_designs SimulationBD_Automat]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c1] [get_bd_pins circuit_Zaehler_3_0/sig_in_Reset]
+connect_bd_net [get_bd_ports reset] [get_bd_pins Steuerwerk_Moore_0/reset]
+current_bd_design [get_bd_designs SimulationBD_VZ]
+current_bd_design [get_bd_designs SimulationBD_Automat]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins circuit_Zaehler_3_0/sig_in_Text]
+connect_bd_net [get_bd_pins Steuerwerk_Moore_0/c8] [get_bd_pins circuit_Zaehler_3_0/sig_in_incCnt]
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_Q0] [get_bd_pins xlconcat_1/In0]
+connect_bd_net [get_bd_pins circuit_Zaehler_3_0/sig_out_Q1] [get_bd_pins xlconcat_1/In1]
+connect_bd_net [get_bd_pins Operationswerk_0/k2] [get_bd_pins Steuerwerk_Moore_0/k2]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+save_bd_design
+Wrote  : <C:\Users\Admin\OneDrive\桌面\TGI_II_UE4\TGI_II_UE4.srcs\sources_1\bd\SimulationBD_Automat\SimulationBD_Automat.bd> 
+Wrote  : <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/ui/bd_24d48d7b.ui> 
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoegerung_0_0/SimulationBD_VZ_circuit_Verzoegerung_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_vlog.prj"
+"xvhdl --incr --relax -prj Testbench_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Admin/OneDrive/桌面/Moore-Template.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Steuerwerk_Moore'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xelab -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'simulationbd_vz_circuit_sw_moore_vz_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:183]
+WARNING: [VRFC 10-4940] 'simulationbd_vz_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:205]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:32]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_steuerwerk_moore_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:184]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:206]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:50]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_behav -key {Behavioral:sim_1:Functional:Testbench} -tclbatch {Testbench.tcl} -protoinst "protoinst_files/ExerciseBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_Automat.protoinst" -view {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ExerciseBD_VZ.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ExerciseBD_VZ.protoinst for the following reason(s):
+There are no instances of module "ExerciseBD_VZ" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_VZ.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_Automat.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1115.883 ; gain = 8.145
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 1115.883 ; gain = 8.145
+current_bd_design [get_bd_designs SimulationBD_VZ]
+delete_bd_objs [get_bd_nets clk_1]
+connect_bd_net [get_bd_ports clk] [get_bd_pins util_vector_logic_0/Op1]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins circuit_Verzoerung_2_0/sig_in_Takt]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+save_bd_design
+Wrote  : <C:\Users\Admin\OneDrive\桌面\TGI_II_UE4\TGI_II_UE4.srcs\sources_1\bd\SimulationBD_VZ\SimulationBD_VZ.bd> 
+Wrote  : <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ui/bd_b2d7d29a.ui> 
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoegerung_0_0/SimulationBD_VZ_circuit_Verzoegerung_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_vlog.prj"
+"xvhdl --incr --relax -prj Testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xelab -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'simulationbd_vz_circuit_sw_moore_vz_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:183]
+WARNING: [VRFC 10-4940] 'simulationbd_vz_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:205]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:32]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_steuerwerk_moore_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:184]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:206]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:50]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_behav -key {Behavioral:sim_1:Functional:Testbench} -tclbatch {Testbench.tcl} -protoinst "protoinst_files/ExerciseBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_Automat.protoinst" -view {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ExerciseBD_VZ.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ExerciseBD_VZ.protoinst for the following reason(s):
+There are no instances of module "ExerciseBD_VZ" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_VZ.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_Automat.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.961 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1227.961 ; gain = 0.000
+current_bd_design [get_bd_designs SimulationBD_Automat]
+delete_bd_objs [get_bd_nets clk_1]
+connect_bd_net [get_bd_ports clk] [get_bd_pins util_vector_logic_0/Op1]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins Steuerwerk_Moore_0/clock]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+save_bd_design
+Wrote  : <C:\Users\Admin\OneDrive\桌面\TGI_II_UE4\TGI_II_UE4.srcs\sources_1\bd\SimulationBD_Automat\SimulationBD_Automat.bd> 
+Wrote  : <C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/ui/bd_24d48d7b.ui> 
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoegerung_0_0/SimulationBD_VZ_circuit_Verzoegerung_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_vlog.prj"
+"xvhdl --incr --relax -prj Testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xelab -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'simulationbd_vz_circuit_sw_moore_vz_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:183]
+WARNING: [VRFC 10-4940] 'simulationbd_vz_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:205]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:32]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_steuerwerk_moore_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:184]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:206]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:50]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_behav -key {Behavioral:sim_1:Functional:Testbench} -tclbatch {Testbench.tcl} -protoinst "protoinst_files/ExerciseBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_Automat.protoinst" -view {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ExerciseBD_VZ.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ExerciseBD_VZ.protoinst for the following reason(s):
+There are no instances of module "ExerciseBD_VZ" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_VZ.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_Automat.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1227.961 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1227.961 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoegerung_0_0/SimulationBD_VZ_circuit_Verzoegerung_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_vlog.prj"
+"xvhdl --incr --relax -prj Testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xelab -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'simulationbd_vz_circuit_sw_moore_vz_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:183]
+WARNING: [VRFC 10-4940] 'simulationbd_vz_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:205]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:32]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_steuerwerk_moore_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:184]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:206]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:50]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_behav -key {Behavioral:sim_1:Functional:Testbench} -tclbatch {Testbench.tcl} -protoinst "protoinst_files/ExerciseBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_Automat.protoinst" -view {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ExerciseBD_VZ.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ExerciseBD_VZ.protoinst for the following reason(s):
+There are no instances of module "ExerciseBD_VZ" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_VZ.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_Automat.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.961 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1227.961 ; gain = 0.000
+current_wave_config {Testbench_behav.wcfg}
+Testbench_behav.wcfg
+add_wave {{/Testbench/tb_bd_inst_automat/xlconcat_0_dout}} 
+save_wave_config {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_Automat/SimulationBD_Automat.bd
+C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/SimulationBD_VZ.bd
+
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench' in fileset 'sim_1'...
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'c:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sources_1/bd/SimulationBD_VZ/ip/SimulationBD_VZ_circuit_Verzoegerung_0_0/SimulationBD_VZ_circuit_Verzoegerung_0_0.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_vlog.prj"
+"xvhdl --incr --relax -prj Testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+"xelab -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 75b2cb52c2c244ef947273c2f4cb84d3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip -L xpm --snapshot Testbench_behav xil_defaultlib.Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'simulationbd_vz_circuit_sw_moore_vz_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:183]
+WARNING: [VRFC 10-4940] 'simulationbd_vz_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_VZ/sim/SimulationBD_VZ.vhd:205]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:32]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_steuerwerk_moore_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:184]
+WARNING: [VRFC 10-4940] 'simulationbd_automat_counter_0_0' remains a black box since it has no binding entity [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4_ML/TGI_II_UE4_ML.ip_user_files/bd/SimulationBD_Automat/sim/SimulationBD_Automat.vhd:206]
+WARNING: [VRFC 10-8389] size mismatch in mixed language port association, VHDL port 'counter' [C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.srcs/sim_1/new/Testbench.v:50]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/TGI_II_UE4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_behav -key {Behavioral:sim_1:Functional:Testbench} -tclbatch {Testbench.tcl} -protoinst "protoinst_files/ExerciseBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_VZ.protoinst" -protoinst "protoinst_files/SimulationBD_Automat.protoinst" -view {C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/ExerciseBD_VZ.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/ExerciseBD_VZ.protoinst for the following reason(s):
+There are no instances of module "ExerciseBD_VZ" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_VZ.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SimulationBD_Automat.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Admin/OneDrive/桌面/TGI_II_UE4/Testbench_behav.wcfg
+source Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.961 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1227.961 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 20 17:28:58 2022...
